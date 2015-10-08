@@ -1,0 +1,257 @@
+html, body {
+  height: 100%;
+  font-family: "proxima-nova";
+  font-weight: 300;
+  font-size: 62.5%;
+}
+
+.menu {
+  
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.clearfix { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+.proxima-nova-light {
+  font-weight: 300;
+}
+
+.proxima-nova-medium {
+  font-weight: 500;
+}
+
+.museo-rounded-medium {
+  font-weight: 700;
+}
+
+.museo-rounded-heavy {
+  font-weight: 1000;
+}
+
+
+.black-unicorn {
+  background-image: url('../images/black-unicorn.png');
+  width: 390px;
+  height: 652px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: left;
+  margin-top: 10rem;
+  margin-left: 15%;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: none;
+  overflow-y: scroll;
+  padding-bottom: 5%;
+}
+
+.section.intro {
+  background-image: url('../images/intro-bg.jpg');  
+}
+
+.section.skills {
+  background-image: url('../images/skills-bg.jpg');
+  display: block;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 12%;
+  text-align: center;
+  font-size: 1.6rem;
+  color: rgba(255,255,255,1);
+}
+
+header .aaron-brodeur img {
+  width: 55%;
+}
+
+header a.menu-item {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2rem;
+  padding: .8rem 1.2rem;
+  border: .2rem solid rgba(255,255,255,1);
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,255,255,0);
+  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  transition: all .5s;
+}
+
+header a.menu-item:hover {
+  background-color: rgba(255,255,255,1);
+  color: rgba(66,66,66,1);
+}
+
+.section.skills .wrapper {
+  background-color: rgba(240,240,240,1);
+  border-radius: 3px;
+  width: 85%;
+  margin-left: 12%;
+  min-height: 72rem;
+  position: relative;
+  top: 5%;
+}
+
+.aaron-brodeur {
+  position: relative;
+}
+
+.aaron-brodeur h2 {
+  font-size: 1.8rem;
+  position: absolute;
+  top: 84%;
+  text-align: center;
+  width: 100%;
+}
+
+.menu ul li {
+  margin-bottom: 1.4rem
+}
+
+.contact-menu ul {
+  display: none;
+}
+
+.contact-menu ul li {
+  opacity: 0;
+  transition: all .5s;
+}
+
+ul.menu {
+  margin-top: 2.5rem;
+}
+
+.contact-menu:hover ul {
+  display: block;
+}
+
+.contact-menu:hover ul li {
+  opacity: 1;
+}
+
+.section.intro {
+  display: none;
+}
+
+.intro-content {
+  width: 32%;
+  float: left;
+  padding-left: 5%;
+  color: rgba(255,255,255,1);
+}
+
+.intro-content h1 {
+  margin-top: 26rem;
+  font-size: 7.2rem;
+  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 1000;
+  line-height: 6rem;
+  margin-bottom: 5rem;
+}
+
+.intro-content p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  margin-bottom: 2.4rem;
+}
+
+
+.orange-btn, a.orange-btn {
+  color: rgba(255,195,78,1);
+  text-decoration: none;
+  border: .2rem solid rgba(255,195,78,1);
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 2.4rem;
+}
+
+.section.skills .skills-imagery, .section.skills .skills-descriptions {
+  width: 100%;
+  height: 50%;
+}
+
+.section.skills .skills-descriptions {
+  background-color: rgba(255,255,255,1);
+}
+
+.section.skills li {
+  list-style: none;
+  width: 33.33%;
+  float: left;
+  position: relative;
+  height: 100%;
+}
+
+.section.skills li p, .section.skills .pad {
+  padding: 0% 10% 5% 10%;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: rgba(90,90,90,1);
+}
+
+.section.skills li p:first-child {
+  margin-top: 10%;
+}
+
+.section.skills li p:last-child {
+  margin-bottom: 10%;
+}
+
+.skills-imagery ul {
+  height: 100%;
+}
+
+.skills-imagery img {
+  display: block;
+}
+
+.users-shoes img {
+  width: 45%;
+  margin: 10% auto 5% auto;
+}
+
+.interface-design img {
+  width: 90%;
+  margin: 5% auto;
+}
+
+.code img {
+  width: 100%;
+  position: absolute;
+  margin: 17% auto 0 auto;
+  left: -25%;
+}
+
+.skills-descriptions h2 {
+  font-size: 3.2rem;
+  color: rgba(66,66,66,1);
+  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 10% 10% 5% 10%;
+}
+
+.skills-descriptions h2 span {
+  font-size: 2rem;
+  color: rgba(153,153,153,1);
+  display: block;
+}

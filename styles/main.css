@@ -15,13 +15,9 @@ html, body {
      content: " ";
      clear: both;
      height: 0;
-     }
+}
 
 .clearfix { display: inline-block; }
-
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-
 
 .proxima-nova-light {
   font-weight: 300;
@@ -56,7 +52,6 @@ html, body {
   height: 100%;
   background-size: cover;
   display: none;
-  overflow-y: scroll;
   padding-bottom: 5%;
 }
 
@@ -219,6 +214,7 @@ ul.menu {
 
 .skills-imagery ul {
   height: 100%;
+  width: 100%;
 }
 
 .skills-imagery img {
@@ -226,12 +222,12 @@ ul.menu {
 }
 
 .users-shoes img {
-  width: 45%;
+  width: 42%;
   margin: 10% auto 5% auto;
 }
 
 .interface-design img {
-  width: 90%;
+  width: 86%;
   margin: 5% auto;
 }
 

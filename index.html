@@ -13,13 +13,13 @@
     <header>
       <nav class="menu">
         <div class="aaron-brodeur">
-            <a href="/"><img src="images/aaron-brodeur-with-kitten.png"></a>
+            <a class="menu-item nav-item" item=".intro"><img src="images/aaron-brodeur-with-kitten.png"></a>
             <h2>Aaron Brodeur</h2>
         </div>
         <ul class="menu">
-          <li><a class="menu-item" href="#story">Work & History</a></li>
-          <li><a class="menu-item" href="#skillset">Primary Skillset</a></li>
-          <li><a class="menu-item" href="#toolbox">Tools I Use</a></li>
+          <li><a class="menu-item nav-item" item=".story">Work & History</a></li>
+          <li><a class="menu-item nav-item" item=".skills">Primary Skillset</a></li>
+          <li><a class="menu-item nav-item" item=".toolbox">Tools I Use</a></li>
           <li class="contact-menu">
             <a class="menu-item contact">@</a>
             <ul>
@@ -38,7 +38,7 @@
         <div class="intro-content">
           <h1>I help make dreams come true</h1>
           <p>I'm an artist, interface designer, and front end developer in San Francisco. I've spent the last 7 years making the dream of a successful solar company come true, and now I'm looking for my next mission.</p>
-          <p>What's your dream? Maybe I can help you. <a class="orange-btn">Find out how</a></p>
+          <p>What's your dream? Maybe I can help you. <a class="orange-btn nav-item" item=".skills">Find out how</a></p>
         </div>
       </div>
     </div>
@@ -112,7 +112,640 @@
         </div>
       </div>
     </div>
-    <div class="section toolset">
+    <div class="section toolbox" style="display: block;">
+      <div class="wrapper">
+        <div class="scatter-plot">
+          <div class="background">
+            <div class="quadrant top-left"><div></div></div>
+            <div class="quadrant top-right"><div></div></div>
+            <div class="quadrant bottom-left"><div></div></div>
+            <div class="quadrant bottom-right"><div></div></div>
+          </div>
+          <div class="labels">
+            <span class="y-axis-description">Current experience level</span>
+            <span class="y-axis master">MASTER <em></em></span>
+            <span class="y-axis seasoned">SEASONED <em></em></span>
+            <span class="y-axis novice">NOVICE <em></em></span>
+            <span class="x-axis-description">When I started using the tool</span>
+            <span class="x-axis early">1995 <em></em></span>
+            <span class="x-axis middle">2005 <em></em></span>
+            <span class="x-axis late">2015 <em></em></span>
+          </div>
+          <ul class="points">
+            <li class="tool photoshop design-tool">
+              <span class="icon"></span>
+              <div class="info">
+                <a class="close-info"></a>
+                <div class="heading clearfix">
+                  <h2 class="left">
+                    Photoshop
+                    <span>Pixel manipulation program</span>
+                  </h2>
+                  <h2 class="right">
+                    USED SINCE
+                    <span>1997</span>
+                  </h2>
+                </div>
+                <div class="content">
+                  <p>I've been using Wordpress for years, since long before it was the publishing powerhouse it is today. Because of my long history with the platform, I am familiar with most of the parts that make Wordpress work. Furthermore, over the years I've been a part of teams and projects that pushed Wordpress to it's limits.</p>
+                  <p>Key Wordpress skills</p>
+                  <ul>
+                    <li>Wordpress theme design</li>
+                    <li>Wordpress e-commerce</li>
+                    <li>Administration and management of large-scale blog networks</li>
+                  </ul>
+                  <p>... and a whole lot more.</p>
+                </div>
+              </div>
+            </li>
+            <li class="tool platform ab-html">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+            <li class="tool development-tool bbedit">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool design-tool illustrator">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform ab-css">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform ab-js">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool design-tool flash">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform wordpress">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform ab-jquery">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool design-tool indesign">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform ab-php">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform py">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform linux">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool development-tool dreamweaver">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform joomla">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool development-tool svn">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool development-tool vim">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool design-tool fireworks">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform mysql">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform apache">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform scriptaculous">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool development-tool coda">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform smarty">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool development-tool github">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool development-tool git">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool design-tool blender">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool development-tool reviewboard">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool design-tool balsamiq">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform ab-svg">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform ab-ember">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool development-tool sublimetext">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool design-tool pixelapse">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool objective-c platform">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool xcode development-tool">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool design-tool sketch">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform swift">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform angular">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform ab-ruby">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool platform flask">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+            <li class="tool design-tool aftereffects">
+              <span class="icon"></span>
+              <div class="heading clearfix">
+                <h2 class="left">
+                  <span></span>
+                </h2>
+                <h2 class="right">
+                  <span></span>
+                </h2>
+              </div>
+              <div class="content">
+                
+              </div>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
     </div>
     
   </body>

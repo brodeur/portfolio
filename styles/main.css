@@ -444,7 +444,6 @@ ul.menu {
 }
 
 .tool .icon {
-  width: 5rem;
   height: 5rem;
   border-radius: 5rem;
   border: .5rem solid rgba(255,255,255,.5);
@@ -501,10 +500,13 @@ ul.menu {
 }
 
 .scatter-plot .tool:hover .icon {
-   width: 9rem;
-   height: 9rem;
-   left: -4.5rem;
-   border: .5rem solid rgba(255,255,255,1);
+  width: 9rem;
+  height: 9rem;
+  left: -4.5rem;
+  border: .5rem solid rgba(255,255,255,1);
+  -webkit-box-shadow: inset 0rem .2rem 1.5rem 0rem rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0rem .2rem 1.5rem 0rem rgba(0,0,0,0.3);
+  box-shadow: inset 0rem .2rem 1.5rem 0rem rgba(0,0,0,0.3);
 }
 
 .scatter-plot .icon:hover {
@@ -883,7 +885,37 @@ ul.menu {
 .tool:hover .info {
   height: auto;
   display: block;
+  animation-name: showTool;
+  animation-duration: .5s;
 }
+
+
+@-webkit-keyframes showTool {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3)  translate3d(0, -400px, 0);
+    transform: scale3d(.3, .3, .3)  translate3d(0, -400px, 0);
+  }
+
+  70% {
+    opacity: 1;
+    transform:   translate3d(0, 0px, 0);;
+  }
+}
+
+@keyframes showTool {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3)  translate3d(0, -400px, 0);
+    transform: scale3d(.3, .3, .3)  translate3d(0, -400px, 0);
+  }
+
+  70% {
+    opacity: 1;
+    transform:   translate3d(0, 0px, 0);;
+  }
+}
+
 
 .tool .info .left {
   font-size: 1.6rem;
@@ -973,6 +1005,13 @@ ul.menu {
   margin-right: .5rem;
   position: relative;
   transition: all .25s ease;
+  -webkit-box-shadow: inset 0rem .2rem .5rem 0rem rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0rem .2rem .5rem 0rem rgba(0,0,0,0.2);
+  box-shadow: inset 0rem .2rem .5rem 0rem rgba(0,0,0,0.2);
+}
+
+.filter-toggle:hover {
+  cursor: pointer;
 }
 
 .filter-toggle em {
@@ -985,6 +1024,9 @@ ul.menu {
   top: .3rem;
   left: .3rem;
   transition: all .25s ease;
+  -webkit-box-shadow: 0rem .3rem .3rem 0rem rgba(0,0,0,0.22);
+  -moz-box-shadow: 0rem .3rem .3rem 0rem rgba(0,0,0,0.22);
+  box-shadow: 0rem .3rem .3rem 0rem rgba(0,0,0,0.22);
 }
 
 .filter-toggle.disabled em {

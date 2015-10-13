@@ -3,14 +3,14 @@
     "tool_name" : "photoshop",
     "tool_type" : "design-tool",
     "used_since" : 1997,
-    "mastery_level" : 90,
+    "mastery_level" : 96,
     "display_name" : "Photoshop",
     "tool_short_description" : "Pixel manipulation program",
     "tool_long_description" : "<p>I've been using Wordpress for years, since long before it was the publishing powerhouse it is today. Because of my long history with the platform, I am familiar with most of the parts that make Wordpress work. Furthermore, over the years I've been a part of teams and projects that pushed Wordpress to it's limits.</p> <p>Key Wordpress skills</p> <ul> <li>Wordpress theme design</li> <li>Wordpress e-commerce</li> <li>Administration and management of large-scale blog networks</li> </ul> <p>... and a whole lot more.</p>"
   }, {
     "tool_name" : "ab-html",
     "tool_type" : "platform",
-    "used_since" : 1997,
+    "used_since" : 1997.5,
     "mastery_level" : 91,
     "display_name" : "HTML",
     "tool_short_description" : "The skeleton of the web", 
@@ -27,7 +27,7 @@
     "tool_name" : "illustrator",
     "tool_type" : "design-tool",
     "used_since" : 1998,
-    "mastery_level" : 88,
+    "mastery_level" : 92,
     "display_name" : "Adobe Illustrator",
     "tool_short_description" : "Vector illustration tool",
     "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
@@ -42,8 +42,8 @@
   }, {
     "tool_name" : "ab-js",
     "tool_type" : "platform",
-    "used_since" : 2000,
-    "mastery_level" : 85,
+    "used_since" : 1999.5,
+    "mastery_level" : 88,
     "display_name" : "Javascript",
     "tool_short_description" : "The web's scripting language",
     "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
@@ -67,7 +67,7 @@
     "tool_name" : "ab-jquery",
     "tool_type" : "platform",
     "used_since" : 2004,
-    "mastery_level" : 86,
+    "mastery_level" : 91,
     "display_name" : "jQuery",
     "tool_short_description" : "What most people refer to when they say 'javascript'",
     "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
@@ -229,7 +229,7 @@
   }, {
     "tool_name" : "ab-svg",
     "tool_type" : "platform",
-    "used_since" : 2011,
+    "used_since" : 2011.5,
     "mastery_level" : 48,
     "display_name" : "SVG",
     "tool_short_description" : "Vector graphics for the web",
@@ -285,7 +285,7 @@
   }, {
     "tool_name" : "swift",
     "tool_type" : "platform",
-    "used_since" : 2014,
+    "used_since" : 2014.7,
     "mastery_level" : 22,
     "display_name" : "Swift",
     "tool_short_description" : "Apple's latest programming language", 
@@ -309,7 +309,7 @@
   }, {
     "tool_name" : "flask",
     "tool_type" : "platform",
-    "used_since" : 2015,
+    "used_since" : 2014.5,
     "mastery_level" : 66,
     "display_name" : "Flask",
     "tool_short_description" : "Lightweight Python web development", 

@@ -419,13 +419,14 @@ ul.menu {
   padding: .8rem 2rem;
   background-color: rgba(255,255,255,1);
   border-radius: .5rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   position: absolute;
+  font-weight: bold;
 }
 
 .y-axis-description {
   transform: rotate(-90deg);
-  left: -8.3rem;
+  left: -7.4rem;
   top: 35rem;
 }
 

@@ -863,6 +863,10 @@ ul.menu {
   height: 1rem;
 }
 
+.tool:hover {
+  z-index: 1000;
+}
+
 .tool:hover .info {
   height: auto;
   display: block;
@@ -890,7 +894,7 @@ ul.menu {
 }
 
 .tool .info .left span, .tool .info .right span {
-  font-weight: 700;
+  font-weight: 800;
   display: block;
   color: rgba(90,90,90,1);
   font-size: 1.2rem;

@@ -8,7 +8,7 @@
     "tool_short_description" : "Pixel manipulation program",
     "tool_long_description" : "<p>I've been using Wordpress for years, since long before it was the publishing powerhouse it is today. Because of my long history with the platform, I am familiar with most of the parts that make Wordpress work. Furthermore, over the years I've been a part of teams and projects that pushed Wordpress to it's limits.</p> <p>Key Wordpress skills</p> <ul> <li>Wordpress theme design</li> <li>Wordpress e-commerce</li> <li>Administration and management of large-scale blog networks</li> </ul> <p>... and a whole lot more.</p>"
   }, {
-    "tool_name" : "ab_html",
+    "tool_name" : "ab-html",
     "tool_type" : "platform",
     "used_since" : 1997,
     "mastery_level" : 91,
@@ -181,7 +181,7 @@
   }, {
     "tool_name" : "smarty",
     "tool_type" : "platform",
-    "used_since" : 2009,
+    "used_since" : 2009.25,
     "mastery_level" : 78,
     "display_name" : "Smarty Templating Engine",
     "tool_short_description" : "Templating for PHP",
@@ -189,7 +189,7 @@
   }, {
     "tool_name" : "github",
     "tool_type" : "development-tool",
-    "used_since" : 2009,
+    "used_since" : 2009.75,
     "mastery_level" : 68,
     "display_name" : "GitHub",
     "tool_short_description" : "Hosted version control", 
@@ -197,7 +197,7 @@
   }, {
     "tool_name" : "git",
     "tool_type" : "development-tool",
-    "used_since" : 2009,
+    "used_since" : 2009.75,
     "mastery_level" : 63,
     "display_name" : "Git",
     "tool_short_description" : "Version control system", 

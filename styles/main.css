@@ -446,7 +446,7 @@ ul.menu {
   width: 5rem;
   height: 5rem;
   border-radius: 5rem;
-  border: .5rem solid rgba(255,255,255,1);
+  border: .5rem solid rgba(255,255,255,.5);
   position: absolute;
   display: block;
   transition: all .5s;
@@ -502,7 +502,8 @@ ul.menu {
 .scatter-plot .tool:hover .icon {
    width: 9rem;
    height: 9rem;
-   left: -4.5rem
+   left: -4.5rem;
+   border: .5rem solid rgba(255,255,255,1);
 }
 
 .scatter-plot .icon:hover {

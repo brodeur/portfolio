@@ -5,4 +5,10 @@ $(document).ready(function(){
     $(item).show();
     e.preventDefault();
   });
+  $(".filter-toggle").click(function(){
+    var filter = $(this).attr("filter");
+    console.log(filter);
+    $("." + filter).toggleClass("hidden");
+    $(this).toggleClass("disabled");
+  });
 });

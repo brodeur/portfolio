@@ -121,7 +121,7 @@ header a.menu-item:hover {
    margin-left: 21%;
    min-height: 72rem;
    position: relative;
-   top: 5%;
+   top: 12%;
  }
 
 .scatter-plot {
@@ -459,6 +459,15 @@ ul.menu {
   transition: all .5s;
   left: -2.5rem;
   z-index: 150;
+  opacity: 1;
+}
+
+.tool.hidden {
+  opacity: 0.2;
+}
+
+.tool.hidden:hover {
+  opacity: 1;
 }
 
 .design-tool .icon {
@@ -486,6 +495,8 @@ ul.menu {
 .tool {
   position: absolute;
   list-style: none;
+  opacity: 1;
+  transition: all .25s;
 }
 
 .scatter-plot .tool:hover .icon {
@@ -918,4 +929,86 @@ ul.menu {
   line-height: 2rem;
   margin-bottom: .5rem;
   margin-left: 5rem;
+}
+
+.filters {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 71rem;
+  margin-left: -35.5rem;
+  display: inline-block;
+  background-color: rgba(255,255,255,1);
+  -webkit-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.27);
+  -moz-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.27);
+  box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.27);
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 2rem;
+  border-radius: .3rem;
+  top: -8rem;
+}
+
+.filters .filter {
+  display: inline-block;
+  float: left;
+  margin-right: 3rem;
+  border-right: .3rem solid rgba(238,238,238,1);
+  padding-right: 3rem;
+}
+
+.filters .filter:last-child {
+  padding-right: 0;
+  margin-right: 0;
+  border-right: none;
+}
+
+.filter .filter-toggle {
+  height: 2.2rem;
+  width: 5rem;
+  border-radius: 1rem;
+  display: inline-block;
+  margin-right: .5rem;
+  position: relative;
+  transition: all .25s ease;
+}
+
+.filter-toggle em {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: rgba(255,255,255,1);
+  display: inline-block;
+  border-radius: 1.6rem;
+  position: relative;
+  top: .3rem;
+  left: .3rem;
+  transition: all .25s ease;
+}
+
+.filter-toggle.disabled em {
+  left: 3.1rem;
+}
+
+.filter.design-tools .filter-toggle {
+  background-color: rgba(128,190,79,1);
+}
+
+.filter.design-tools .filter-toggle.disabled {
+  background-color: rgba(128,190,79,.4)
+}
+
+.filter.development-tools .filter-toggle {
+  background-color: rgba(95,166,194,1);
+}
+
+.filter.development-tools .filter-toggle.disabled {
+  background-color: rgba(95,166,194,.4);
+}
+
+.filter.platforms .filter-toggle {
+  background-color: rgba(125,116,195,1);
+}
+
+.filter.platforms .filter-toggle.disabled {
+  background-color: rgba(125,116,195,.4);
 }

@@ -51,7 +51,6 @@ html, body {
   width: 100%;
   height: 100%;
   background-size: cover;
-  display: none;
   padding-bottom: 5%;
 }
 
@@ -106,6 +105,11 @@ header a.menu-item:hover {
   color: rgba(66,66,66,1);
   border-color: rgba(255,255,255,.5);
   cursor: pointer;
+}
+
+.portfolio {
+  width: 100%;
+  height: 100%;
 }
 
 .section.skills .wrapper {
@@ -173,10 +177,6 @@ ul.menu {
 
 .contact-menu:hover ul li {
   opacity: 1;
-}
-
-.section.intro {
-  display: none;
 }
 
 .intro-content {
@@ -1055,4 +1055,8 @@ ul.menu {
 
 .filter.platforms .filter-toggle.disabled {
   background-color: rgba(125,116,195,.4);
+}
+
+.fp-tableCell {
+  vertical-align: top;
 }

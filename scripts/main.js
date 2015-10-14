@@ -1,9 +1,6 @@
 $(document).ready(function(){
-  $(".nav-item").click(function(e){
-    var item = $(this).attr("item");
-    $(".section").hide();
-    $(item).show();
-    e.preventDefault();
+  $(".portfolio").fullpage({
+    anchors : ['intro', 'story', 'skills', 'toolbox']
   });
   $(".filter-toggle").click(function(){
     var filter = $(this).attr("filter");

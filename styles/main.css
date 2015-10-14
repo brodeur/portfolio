@@ -1059,4 +1059,59 @@ ul.menu {
 
 .fp-tableCell {
   vertical-align: top;
+  height: 100% !important;
+}
+
+.section.story .wrapper {
+  width: 76%;
+  margin-top: 5%;
+  margin-left: 22%;
+}
+
+.section.story {
+  padding-bottom: 0;
+}
+
+.tale-of-two-acquisitions {
+  padding-bottom: 5%;
+}
+
+
+.time-period {
+  border: 1px solid red;
+}
+
+.timeline {
+  position: fixed;
+  left: 50%;
+  width: 10rem;
+  margin-left: -5rem;
+}
+
+.time-period p {
+  font-size: 1.6rem;
+  font-weight: 100;
+  color: rgba(255,255,255,1);
+}
+
+.time-period:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.time-period .left, .time-period .right {
+  float: left;
+  width: 45%;
+}
+
+.time-period .left {
+  margin-right: 5%;
+}
+
+.time-period .right {
+  margin-left: 5%;
 }

@@ -1,4 +1,7 @@
 $(document).ready(function(){
+  $(window).scroll(function(){
+    console.log($(window).scrollTop());
+  });
   $(".portfolio").fullpage({
     anchors : ['intro', 'story', 'skills', 'toolbox'],
     scrollOverflow : true

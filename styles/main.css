@@ -38,8 +38,8 @@ html, body {
 
 .black-unicorn {
   background-image: url('../images/black-unicorn.png');
-  width: 390px;
-  height: 652px;
+  width: 39rem;
+  height: 65.2rem;
   background-size: 100%;
   background-repeat: no-repeat;
   float: left;
@@ -207,7 +207,7 @@ ul.menu {
   text-decoration: none;
   border: .2rem solid rgba(255,195,78,1);
   display: inline-block;
-  padding: 5px 8px;
+  padding: .5rem .8rem;
   border-radius: 2.4rem;
   transition: all .25s;
 }
@@ -1063,9 +1063,9 @@ ul.menu {
 }
 
 .section.story .wrapper {
-  width: 76%;
+  width: 82%;
   margin-top: 5%;
-  margin-left: 22%;
+  margin-left: 14%;
 }
 
 .section.story {
@@ -1076,42 +1076,217 @@ ul.menu {
   padding-bottom: 5%;
 }
 
-
 .time-period {
-  border: 1px solid red;
+  padding-bottom: 8rem;
+  position: relative;
 }
 
 .timeline {
-  position: fixed;
-  left: 50%;
-  width: 10rem;
-  margin-left: -5rem;
+    left: 55%;
+    width: 5%;
+    margin-left: -5%;
+    border-right: 1rem solid rgba(255,255,255,.5);
+    height: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .time-period p {
   font-size: 1.6rem;
   font-weight: 100;
+  line-height: 3rem;
+  margin-bottom: 2.5rem;
   color: rgba(255,255,255,1);
 }
 
+.time-period h2 {
+  color: rgba(255,255,255,1);
+  font-size: 4.5rem;
+  font-weight: 900;
+  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
+  margin-bottom: 2.5rem;
+}
+
+.time-period .left h2{
+  text-align: right;
+}
+
+.time-period h2.large {
+  font-size: 5.5rem;
+}
+
+.time-period h2.larger {
+  font-size: 6.5rem;
+}
+
+.time-period h2.largest {
+  font-size: 7.5rem;
+}
+
+.time-period h2 span.small {
+  font-size: 3.5rem;
+  display: block;
+}
+
+.time-period h2 span.smaller {
+  font-size: 2.5rem;
+  display: block;
+}
+
 .time-period:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 
 .time-period .left, .time-period .right {
-  float: left;
   width: 45%;
 }
 
 .time-period .left {
   margin-right: 5%;
+  float: left;
 }
 
 .time-period .right {
   margin-left: 5%;
+  float: right;
+}
+
+.timeline-callout em {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  border: 1rem solid rgba(255,255,255,.8);
+  display: block;
+  position: absolute;
+}
+
+.timeline-callout {
+  position: absolute;
+  width: 1rem;
+  left: 50%;
+}
+
+.left .timeline-callout em {
+  right: -3rem;
+}
+
+.right .timeline-callout em {
+  left: -3rem;
+}
+
+.timeline-callout.early-years {
+  top: 0;
+}
+
+.early-years em, .timeline-callout.early-years div, .timeline-callout.early-years div b {
+  background-color: rgba(252,235,155,1);
+}
+.timeline-callout div b {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 1.8rem;
+  border-radius: 0 .3rem;
+}
+
+.right .timeline-callout div b {
+  right: -1rem;
+}
+
+.left .timeline-callout div b {
+  left: -1rem;
+}
+
+.learning-to-hustle em, .timeline-callout.learning-to-hustle div, .timeline-callout.learning-to-hustle div b {
+  background-color: rgba(221,252,155,1);
+}
+
+.designing-an-incubator em, .timeline-callout.designing-an-incubator div, .timeline-callout.designing-an-incubator div b {
+  background-color: rgba(155,252,194,1);
+}
+
+.growing-a-solar-company em, .timeline-callout.growing-a-solar-company div, .timeline-callout.growing-a-solar-company div b {
+  background-color: rgba(155,223,252,1);
+}
+
+.tale-of-two-acquisitions em, .timeline-callout.tale-of-two-acquisitions div, .timeline-callout.tale-of-two-acquisitions div b {
+  background-color: rgba(160,155,252,1);
+}
+
+.next-steps em, .timeline-callout.next-steps div, .timeline-callout.next-steps div b {
+  background-color: rgba(252,133,113,1);
+}
+
+.early-years .timeline-callout div {
+  width: 23rem;
+  left: -33rem;
+}
+
+.learning-to-hustle .timeline-callout div {
+  width: 25rem;
+  right: -35rem;
+}
+
+.designing-an-incubator .timeline-callout div {
+  width: 28rem;
+  left: -38rem;
+}
+
+.growing-a-solar-company .timeline-callout div {
+  width: 29rem;
+  left: 9rem;
+}
+
+.tale-of-two-acquisitions .timeline-callout div {
+  width: 29rem;
+  left: -39rem;
+}
+
+.next-steps .timeline-callout div {
+  width: 18rem;
+  left: 9rem;
+}
+
+.timeline-callout div {
+  padding: 2rem;
+  font-size: 1.6rem;
+  top: .75rem;
+  position: absolute;
+  border-radius: .3rem;
+  color: rgba(0,0,0,0.6);
+}
+
+.left .timeline-callout div {
+  text-align: left;
+}
+
+.right .timeline-callout div {
+  text-align: right;
+}
+
+.timeline-callout span {
+  display: inline-block;
+  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 1000;
+}
+
+.right .timeline-callout span {
+  float: right;
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+  border-left: .2rem solid rgba(0,0,0,.2);
+}
+
+.left .timeline-callout span {
+  float: left;
+  margin-right: 1.5rem;
+  padding-right: 1.5rem;
+  border-right: .2rem solid rgba(0,0,0,.2);
 }

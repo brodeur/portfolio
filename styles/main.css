@@ -47,7 +47,6 @@ html, body {
   width: 100%;
   height: 100%;
   background-size: cover;
-  padding-bottom: 5%;
 }
 
 .section.intro {
@@ -272,7 +271,7 @@ ul.menu {
 }
 
 .interface-design img {
-  width: 80%;
+  width: 71%;
   margin: 8% auto 0 auto;
 }
 
@@ -1119,6 +1118,7 @@ ul.menu {
 .story.left .tldr {
   float: right;
   margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 .story.right .tldr {

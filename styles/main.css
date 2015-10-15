@@ -42,6 +42,7 @@ html, body {
   float: left;
   margin-top: 10%;
   position: relative;
+  z-index: 100;
 }
 
 .shimmers {
@@ -595,6 +596,8 @@ ul.menu {
 }
 
 .intro-content {
+  position: relative;
+  z-index: 200;
   width: 50%;
   float: left;
   padding-left: 5%;
@@ -1645,4 +1648,71 @@ ul.menu {
 
 .relationship-photo.christopher-strawser {
   background-image: url('../images/relationships/christopher-strawser.jpg');
+}
+
+.intro .wrapper {
+  z-index: 10;
+}
+
+.cloud {
+  position: absolute;
+  bottom: 0;
+}
+
+.cloud-1 {
+  right: -400px;
+  z-index: 0;
+  background-image: url('../images/cloud-1.png');
+  height: 997px;
+  width: 1200px;
+  top: -58px;
+  animation-name: animateCloud1;
+  animation-duration: 40000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  transition: all .5s;
+  transform-style: preserve-3d;
+}
+
+.cloud-2 {
+  left: -1000px;
+  z-index: 150;
+  background-image: url('../images/cloud-2.png');
+  width: 2397px;
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 120px;
+  animation-name: animateCloud2;
+  animation-duration: 60000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  transition: all .5s;
+  transform-style: preserve-3d;
+}
+
+@keyframes animateCloud2 {
+  0% {
+    left: -1000px;
+    opacity: 0;
+  } 75% { 
+    left: -1350px;
+    opacity: 0.5;
+  } 100% {
+    left: -1450px;
+    opacity: 0;
+  }
+}
+
+@keyframes animateCloud1 {
+  0% {
+    right: -400px;
+    opacity: 0;
+  } 75% {
+    right: -500px;
+    opacity: .5;
+  } 100% {
+    right: -550px;
+    opacity: 0;
+  }
 }

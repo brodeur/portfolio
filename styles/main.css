@@ -41,6 +41,229 @@ html, body {
   background-repeat: no-repeat;
   float: left;
   margin-top: 10%;
+  position: relative;
+}
+
+.shimmers {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  right: 10.5rem;
+}
+
+.shimmers img {
+  position: absolute;
+}
+
+.shine-1 {
+  top: -3rem;
+  left: -9rem;
+  animation-name: sparkleSpin1;
+  animation-duration: 11000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transition: all .5s;
+}
+
+.shine-2 {
+  left: -0.5rem;
+  width: 2rem;
+  top: -0.7rem;
+  animation-name: lightPulse;
+  animation-duration: 6000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transition: all .5s;
+}
+
+.shine-3 {
+  left: -2.5rem;
+  top: -5rem;
+  animation-name: sparkleSpin2;
+  animation-duration: 9000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transition: all .5s;
+}
+
+.shine-4 {
+  left: -7rem;
+  top: -9rem;
+  animation-name: sparkleSpin2;
+  animation-duration: 50000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transition: all .5s;
+}
+
+.sparkle.sparkle-1 {
+  left: -7rem;
+  top: -9rem;
+  animation-name: myOrbit;
+  animation-duration: 25000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transition: all .5s;
+  left: 0;
+  top: 0;
+}
+
+
+@-moz-keyframes sparkleSpin1 {
+  0% {
+    transform:rotate(0deg) skew(60deg,60deg);
+    opacity: 0;
+  } 50% {
+    -webkit-transform: rotate(180deg) skew(0,0);
+    opacity: .4;
+  } 100% {
+    -webkit-transform: rotate(360deg) skew(60deg,60deg);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes sparkleSpin1 {
+  0% {
+    transform:rotate(0deg) skew(60deg,60deg);
+    opacity: 0;
+  } 50% {
+    -webkit-transform: rotate(180deg) skew(0,0);
+    opacity: .4;
+  } 100% {
+    -webkit-transform: rotate(360deg) skew(60deg,60deg);
+    opacity: 0;
+  }
+}
+@keyframes sparkleSpin1 {
+  0% {
+    transform:rotate(0deg) skew(60deg,60deg);
+    opacity: 0;
+  } 50% {
+    -webkit-transform: rotate(180deg) skew(0,0);
+    opacity: .4;
+  } 100% {
+    -webkit-transform: rotate(360deg) skew(60deg,60deg);
+    opacity: 0;
+  }
+}
+@-moz-keyframes sparkleSpin2 {
+  0% {
+    transform:rotate(0deg) skew(60deg,60deg);
+    opacity: 0;
+  } 50% {
+    -webkit-transform: rotate(-180deg) skew(0,0);
+    opacity: .4;
+  } 100% {
+    -webkit-transform: rotate(-360deg) skew(60deg,60deg);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes sparkleSpin2 {
+  0% {
+    transform:rotate(0deg) skew(60deg,60deg);
+    opacity: 0;
+  } 50% {
+    -webkit-transform: rotate(-180deg) skew(0,0);
+    opacity: .4;
+  } 100% {
+    -webkit-transform: rotate(-360deg) skew(60deg,60deg);
+    opacity: 0;
+  }
+}
+@keyframes sparkleSpin2 {
+  0% {
+    transform:rotate(0deg) skew(60deg,60deg);
+    opacity: 0;
+  } 50% {
+    -webkit-transform: rotate(-180deg) skew(0,0);
+    opacity: .4;
+  } 100% {
+    -webkit-transform: rotate(-360deg) skew(60deg,60deg);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes lightPulse {
+  0% {
+    opacity: .25;
+  } 30% {
+    opacity: .9;
+  } 40% {
+    opacity: .35;
+  } 50% {
+    opacity: .75;
+  } 100% {
+    opacity: .25;
+  }
+}
+@-webkit-keyframes lightPulse {
+  0% {
+    opacity: .25;
+  } 30% {
+    opacity: .9;
+  } 40% {
+    opacity: .35;
+  } 50% {
+    opacity: .75;
+  } 100% {
+    opacity: .25;
+  }
+}
+@keyframes lightPulse {
+  0% {
+    opacity: .25;
+  } 30% {
+    opacity: .9;
+  } 40% {
+    opacity: .35;
+  } 50% {
+    opacity: .75;
+  } 100% {
+    opacity: .25;
+  }
+}
+
+@-webkit-keyframes loopingParticle {
+  0% {
+    left: 0;
+    top: 0;
+    height: 1rem;
+  } 25% {
+    left: 10rem;
+    top: 3rem;
+    height: 1.3rem;
+  } 50% {
+    left: 20rem;
+    top: 0;
+    height: 1rem;
+  } 75% {
+    left: 10rem;
+    top: -3rem;
+    height: .7rem;
+  }
+}
+
+
+@-webkit-keyframes myOrbit {
+  0% {
+    -webkit-transform: rotate(0deg) translateX(25px) translate3d(120px,0,0) rotate(0deg);
+    height: .5rem;
+    opacity: .4
+  } 50% {
+    -webkit-transform: rotate(180deg) translateX(25px) translate3d(120px,0,120px) rotate(-180deg);
+    height: 2rem;
+    opacity: .8;
+  } 100% {
+    -webkit-transform: rotate(360deg) translateX(25px)  translate3d(120px,0,0) rotate(-360deg);
+    height: .5rem;
+    opacity: .4;
+  }
+}
+
+
+
+.sparkle {
+  left: -15rem;
+  top: -10rem;
 }
 
 .section {

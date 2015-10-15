@@ -67,10 +67,10 @@
         allowPageScroll : false,
 
         // scroll amount applied to each mouse wheel step
-        wheelStep : 20,
+        wheelStep : 10,
 
         // scroll amount applied when user is using gestures
-        touchScrollStep : 200,
+        touchScrollStep : 75,
 
         // sets border radius
         borderRadius: '7px',

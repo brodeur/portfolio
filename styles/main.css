@@ -1728,11 +1728,11 @@ ul.menu {
 
 .unicorn-horn {
   display: block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 4rem;
+  height: 4rem;
   position: absolute;
-  top: -0.5rem;
-  right: 10.25rem;
+  top: -2rem;
+  right: 9.25rem;
   z-index: 100000;
 }
 

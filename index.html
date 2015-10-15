@@ -22,17 +22,19 @@
         $(".unicorn-horn").click(function(){
           $(".black-unicorn, .intro-content").addClass("zoomOut");
           $(".cloud").fadeOut();
+          $(".close-email").fadeIn();
           $(".unicorn-email-thread").addClass("animated fadeInUp");
-          $(".unicorn-email-bg").addClass("block");
+          $(".unicorn-email-bg, .close-email, .close-email-wrapper").addClass("block");
           $(".intro .wrapper").addClass("email-opened");
           $(".portfolio").fullpage({
             anchors : ['intro', 'story', 'skills', 'toolbox'],
           });
-          $(".unicorn-email-bg").click(function(e){
+          $(".unicorn-email-bg, .close-email .orange-btn").click(function(e){
             $(".cloud").fadeIn();
+            $(".close-email").fadeOut();
             $(".black-unicorn, .intro-content").removeClass("zoomOut");
             $(".unicorn-email-thread").removeClass("animated fadeInUp");
-            $(".unicorn-email-bg").removeClass("block");
+            $(".unicorn-email-bg, .close-email-wrapper").removeClass("block");
             $(".intro .wrapper").removeClass("email-opened");
 
           });
@@ -129,6 +131,9 @@
                 <p>Suelyn</p>
               </div>
             </div>
+          </div>
+          <div class="close-email-wrapper">
+          <div class="close-email"><a class="orange-btn">Close email</a></div>
           </div>
           <div class="unicorn-email-bg"></div>
         </div>

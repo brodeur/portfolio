@@ -1187,7 +1187,7 @@ ul.menu {
   width: 50%;
 }
 
-.time-period .left .relationship h2.right {
+.time-period .left .relationship h2.right, .time-period .right .relationship h2.right {
   text-align: right;
   padding: 6rem 2rem 2rem 0;
   width: 30%;

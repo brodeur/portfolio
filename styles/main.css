@@ -472,6 +472,7 @@ html, body {
 
 .section.intro {
   background-image: url('../images/intro-bg.jpg');  
+  overflow-x: hidden;
 }
 
 .section.skills {
@@ -1660,16 +1661,17 @@ ul.menu {
 }
 
 .cloud-1 {
-  right: -400px;
+  right: 0;
+  margin-right: -400px;
   z-index: 0;
   background-image: url('../images/cloud-1.png');
   height: 997px;
   width: 1200px;
-  top: -58px;
+  bottom: 0;
   animation-name: animateCloud1;
-  animation-duration: 40000ms;
+  animation-duration: 25000ms;
   animation-iteration-count: infinite;
-  animation-timing-function: ease;
+  animation-timing-function: linear;
   transition: all .5s;
   transform-style: preserve-3d;
 }
@@ -1682,11 +1684,11 @@ ul.menu {
   height: 1000px;
   background-size: cover;
   background-repeat: no-repeat;
-  top: 120px;
+  margin-bottom: -100px;
   animation-name: animateCloud2;
   animation-duration: 60000ms;
   animation-iteration-count: infinite;
-  animation-timing-function: ease;
+  animation-timing-function: linear;
   transition: all .5s;
   transform-style: preserve-3d;
 }
@@ -1697,7 +1699,7 @@ ul.menu {
     opacity: 0;
   } 75% { 
     left: -1350px;
-    opacity: 0.5;
+    opacity: 0.4;
   } 100% {
     left: -1450px;
     opacity: 0;
@@ -1706,13 +1708,13 @@ ul.menu {
 
 @keyframes animateCloud1 {
   0% {
-    right: -400px;
+    margin-right: -400px;
     opacity: 0;
   } 75% {
-    right: -500px;
+    margin-right: -500px;
     opacity: .5;
   } 100% {
-    right: -550px;
+    margin-right: -550px;
     opacity: 0;
   }
 }

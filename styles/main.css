@@ -40,7 +40,7 @@ html, body {
   background-size: 100%;
   background-repeat: no-repeat;
   float: left;
-  margin-top: 10%;
+  margin-top: 5%;
   position: absolute;
   z-index: 100;
   right: 60%;
@@ -601,10 +601,11 @@ ul.menu {
 .intro-content {
   position: absolute;
   z-index: 200;
-  width: 40%;
+  width: 44%;
   padding-left: 5%;
   color: rgba(255,255,255,1);
   left: 40%;
+  top: 0;
 }
 
 .section.intro .wrapper {

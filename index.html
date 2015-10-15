@@ -20,7 +20,8 @@
     <script type="text/javascript">
       $(document).ready(function(){
         $(".unicorn-horn").click(function(){
-          $(".black-unicorn, .cloud, .intro-content").addClass("zoomOut");
+          $(".black-unicorn, .intro-content").addClass("zoomOut");
+          $(".cloud").fadeOut();
           $(".unicorn-email-thread").addClass("animated fadeInUp");
           $(".unicorn-email-bg").addClass("block");
           $(".intro .wrapper").addClass("email-opened");
@@ -28,7 +29,8 @@
             anchors : ['intro', 'story', 'skills', 'toolbox'],
           });
           $(".unicorn-email-bg").click(function(e){
-            $(".black-unicorn, .cloud, .intro-content").removeClass("zoomOut");
+            $(".cloud").fadeIn();
+            $(".black-unicorn, .intro-content").removeClass("zoomOut");
             $(".unicorn-email-thread").removeClass("animated fadeInUp");
             $(".unicorn-email-bg").removeClass("block");
             $(".intro .wrapper").removeClass("email-opened");

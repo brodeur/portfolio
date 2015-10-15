@@ -41,8 +41,9 @@ html, body {
   background-repeat: no-repeat;
   float: left;
   margin-top: 10%;
-  position: relative;
+  position: absolute;
   z-index: 100;
+  right: 60%;
 }
 
 .shimmers {
@@ -598,16 +599,17 @@ ul.menu {
 }
 
 .intro-content {
-  position: relative;
+  position: absolute;
   z-index: 200;
-  width: 50%;
-  float: left;
+  width: 40%;
   padding-left: 5%;
   color: rgba(255,255,255,1);
+  left: 40%;
 }
 
 .section.intro .wrapper {
   margin-left: 20%;
+  padding: 5rem 0;
 }
 
 .section.intro .wrapper.email-opened {
@@ -1754,7 +1756,6 @@ ul.menu {
   display: inline-block;
 }
 
-.zoomOut
 
 .unicorn-horn img:hover {
   cursor: pointer;
@@ -1774,15 +1775,14 @@ ul.menu {
 @-webkit-keyframes zoomOut {
   0% {
     opacity: 1;
-  }
-
-  50% {
+  } 50% {
     opacity: 0;
     -webkit-transform: scale3d(.3, .3, .3);
     transform: scale3d(.3, .3, .3);
-  }
-
-  100% {
+  } 99% {
+    opacity: 0;
+  } 100% {
+    display: none;
     opacity: 0;
   }
 }
@@ -1790,15 +1790,14 @@ ul.menu {
 @keyframes zoomOut {
   0% {
     opacity: 1;
-  }
-
-  50% {
+  } 50% {
     opacity: 0;
     -webkit-transform: scale3d(.3, .3, .3);
     transform: scale3d(.3, .3, .3);
-  }
-
-  100% {
+  } 99% {
+    opacity: 0;
+  } 100% {
+    display: none;
     opacity: 0;
   }
 }
@@ -1806,7 +1805,7 @@ ul.menu {
 .zoomOut {
   -webkit-animation-name: zoomOut;
   animation-name: zoomOut;
-  animation-duration: 500ms;
+  animation-duration: 2s;
   opacity: 0;
 }
 
@@ -1819,8 +1818,6 @@ ul.menu {
   display: none;
   clear: both;
   position: relative;
-  top: -70rem;
-  margin-bottom: -70rem;
   z-index: 10000;
   width: 72rem;
 }
@@ -1945,6 +1942,7 @@ ul.menu {
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
 }
 
 .unicorn-email-bg.block, .block {

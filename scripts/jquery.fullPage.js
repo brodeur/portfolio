@@ -104,7 +104,7 @@
             showActiveTooltip: false,
             slidesNavigation: false,
             slidesNavPosition: 'bottom',
-            scrollBar: true,
+            scrollBar: false,
 
             //scrolling
             css3: true,

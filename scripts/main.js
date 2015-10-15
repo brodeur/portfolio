@@ -1,7 +1,6 @@
 $(document).ready(function(){
   $(".portfolio").fullpage({
     anchors : ['intro', 'story', 'skills', 'toolbox'],
-    scrollOverflow : true
   });
   $(".filter-toggle").click(function(){
     var filter = $(this).attr("filter");

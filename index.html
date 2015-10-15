@@ -26,17 +26,13 @@
           $(".intro .wrapper").addClass("email-opened");
           $(".portfolio").fullpage({
             anchors : ['intro', 'story', 'skills', 'toolbox'],
-            scrollOverflow : true
           });
           $(".unicorn-email-bg").click(function(e){
             $(".black-unicorn, .cloud, .intro-content").removeClass("zoomOut");
             $(".unicorn-email-thread").removeClass("animated fadeInUp");
             $(".unicorn-email-bg").removeClass("block");
             $(".intro .wrapper").removeClass("email-opened");
-            $(".portfolio").fullpage({
-              anchors : ['intro', 'story', 'skills', 'toolbox'],
-              scrollOverflow : true
-            });
+
           });
         });
       });
@@ -66,7 +62,7 @@
       </nav>                
     </header>
     <div class="portfolio">
-      <div class="section intro" data-anchor="intro">
+      <div class="section intro clearfix" data-anchor="intro">
         <div class="wrapper">
           <div class="cloud cloud-1"></div>
           <div class="cloud cloud-2"></div>

@@ -17,6 +17,30 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".unicorn-horn").click(function(){
+          $(".black-unicorn, .cloud, .intro-content").addClass("zoomOut");
+          $(".unicorn-email-thread").addClass("animated fadeInUp");
+          $(".unicorn-email-bg").addClass("block");
+          $(".intro .wrapper").addClass("email-opened");
+          $(".portfolio").fullpage({
+            anchors : ['intro', 'story', 'skills', 'toolbox'],
+            scrollOverflow : true
+          });
+          $(".unicorn-email-bg").click(function(e){
+            $(".black-unicorn, .cloud, .intro-content").removeClass("zoomOut");
+            $(".unicorn-email-thread").removeClass("animated fadeInUp");
+            $(".unicorn-email-bg").removeClass("block");
+            $(".intro .wrapper").removeClass("email-opened");
+            $(".portfolio").fullpage({
+              anchors : ['intro', 'story', 'skills', 'toolbox'],
+              scrollOverflow : true
+            });
+          });
+        });
+      });
+    </script>
   </head>
   <body>
     <header>
@@ -43,7 +67,7 @@
     </header>
     <div class="portfolio">
       <div class="section intro" data-anchor="intro">
-        <div class="wrapper">          
+        <div class="wrapper">
           <div class="cloud cloud-1"></div>
           <div class="cloud cloud-2"></div>
           <div class="black-unicorn">
@@ -62,14 +86,52 @@
               <img class="sparkle sparkle-8" src="images/shimmers/sparkle-8.png">
               <img class="sparkle sparkle-9" src="images/shimmers/sparkle-9.png">
               <img class="sparkle sparkle-10" src="images/shimmers/sparkle-10.png">
-              <div class="test"></div>
             </div>
+            <a class="unicorn-horn"><img src="images/shimmers/flare.png"></a>
           </div>
           <div class="intro-content">
             <h1>I help make dreams come true</h1>
             <p>I'm an artist, interface designer, and front end developer in San Francisco. I've spent the last 7 years making the dream of a successful solar company come true, and now I'm looking for my next mission.</p>
             <p>What's your dream? Maybe I can help you. <a class="orange-btn nav-item" href="#skills">Find out how</a></p>
           </div>
+          <div class="unicorn-email-thread">
+            <div class="email suelyn-response">
+              <div class="top-heading"></div>
+              <div class="email-header">
+                <img src="images/relationships/suelyn-yu.png" alt="Suelyn Yu, Designer @ Frog Design & Opower">
+                <h2>RE: How do I best describe my skillset?</h2>
+                <span>from <a href="https://www.linkedin.com/in/suelynyu" target="_blank">Suelyn Yu - Designer @ Frog Design, Opower</a> to Me | December 25th, 2014</span>
+              </div>
+              <div class="content">
+                <p>Hey Aaron-</p>
+                <p>Oi this has hidden at the bottom of my inbox for a while now. After a few lazy days of break (eating/napping/movies/repeat) i'm ready to wake up! Hope you are having a Merry Christmas (if you celebrate christmas)!</p>
+                <p>If you are still looking for your next gig...</p>
+                <p>I think you could actually sell yourself as a few different types of role. UX designer. Front-end developer. Front-end prototyper. UI/Visual designer. Sigh isn't our profession confusing? <strong>Actually, you are actually the infamous unicorn designer.</strong></p> 
+                <p>How would you fill out this chart? I found Irene Au's medium posts (written for design employers) actually really useful for my own self reflection as a designer. <a href="https://medium.com/@ireneau/writing-a-job-description-for-ux-people-bcad01be93b0" target="_blank">https://medium.com/@ireneau/writing-a-job-description-for-ux-people-bcad01be93b0</a></p>
+                <p class="center-text"><img src="images/competency.png"></p>
+                <p>Based on this, i'm happy to flag any job postings I hear of. I find by just having an updated portfolio online and an up to date linkedin, i get a few inbound requests, though most of them aren't mission-driven companies or solving interesting/meaningful problems. </p>
+                <p>If you are looking for short-term contract gigs, it might be helpful to reach out to some of the design recruiters in the area. I've only known these ladies personally (from frog days), <a href="http://www.talent-farm.com/" target="_blank">http://www.talent-farm.com/</a> - ex frog recruiters</p>
+                <p>But i've heard good things about some of these recruiters:</p>
+                <ul>
+                  <li><a href="http://www.wertco.com/" target="_blank">Judy Wert</a> specializes in product design leaders and leadership roles</li>
+                  <li><a href="https://about.me/amyjacksontalent" target="_blank">Amy Jackson</a> specializes in individual contributor roles for product design</li>
+                  <li><a href="http://www.designrecruiter.com/" target="_blank">Stephanie Shapiro</a></li>
+                  <li><a href="http://aquent.com/" target="_blank">Aquent</a> specializes in visual design talent</li>
+                </ul>
+                <p>They will probably ask to see a portfolio and resume. I'm not sure what type of portfolio you need as a visual designer or front-end developer, but here are some of my favorite UX designer portfolios. Mine is definitely not up to par right now, but i'm hoping to update mine in the next year:</p>
+                <ul>
+                  <li>Andrew Kim designer from Art Center: <a href="http://www.minimallyminimal.com/blog/america-elect">http://www.minimallyminimal.com/blog/america-elect</a></li>
+                  <li>Pinterest ux designer from cmu: <a href="http://www.jedmund.com/">http://www.jedmund.com/</a></li>
+                  <li>Jawbox ux designer - uses squarespace: <a href="http://dayn-wilberding.squarespace.com/#/the-jawbone-app/">http://dayn-wilberding.squarespace.com/#/the-jawbone-app/</a></li>
+                  <li><a href="http://www.quora.com/What-are-some-good-examples-of-UX-portfolios">http://www.quora.com/What-are-some-good-examples-of-UX-portfolios</a></li>
+                </ul>
+                <p>Hope that's helpful Aaron. Happy to meet up after the holidays in SF to catchup as well!</p>
+                <p>Cheers and hugs,</p>
+                <p>Suelyn</p>
+              </div>
+            </div>
+          </div>
+          <div class="unicorn-email-bg"></div>
         </div>
       </div>
       <div class="section story" data-anchor="story">
@@ -115,7 +177,7 @@
                   </ul>
                 </div>
               </div>
-              <p>My father grew up all over the city. When he met my Southern Californian mother, they married and became hippie Christian ministers here, and over the course of 35 years, they ended up leading the largest congregation in the city. But at first, we lived in a commune. Then, my parents found a spot near Lake Merced with a big backyard and rope swings and chickens and goats. Yup, goats. I was homeschooled and so was able to graduate "high school" early and go to college at 16. I didn't study much about what I do now, but that's when I began investing my time into learning how the internet worked. My best friend Levi and I built our first websites together—a SWATCH sales portal and a corporate website for his brother's climbing gym company. It felt like magic, then, to make money building things that lived on the internet.</p>
+              <p>My father grew up all over the city. When he met my Southern Californian mother, they married and became hippie Christian ministers here, and over the course of 35 years, they ended up leading the largest congregation in the city. But at first, we lived in a commune. Then, my parents found a spot near Lake Merced with a big backyard and rope swings and chickens and goats. Yup, goats. I was homeschooled and so was able to graduate "high school" early and go to college at 16. I didn't study much about what I do now, but that's when I began investing my time into learning how the internet worked. My best friend Levi and I built our first websites together-a SWATCH sales portal and a corporate website for his brother's climbing gym company. It felt like magic, then, to make money building things that lived on the internet.</p>
             </div>
           </div>
           <div class="time-period learning-to-hustle">
@@ -206,7 +268,7 @@
               </div>
               <p>After we decided to discontinue working on Thoughtpool, I spent some more time contracting. One night, I was reading online and stumbled across Carrotmob. The idea of a buycot was so compelling that I reached out to the founder, Brent Schulkin, to offer my services. It turned out that Brent was teaming up with Steve Newcomb, an entrepreneur, to turn Carrotmob and a couple of other services into a new company called Virgance. I joined the founding team in the late summer of 2008. It was at Virgance that I earned my stripes. Virgance was an incubator for socially good companies. At this point in time, incubators weren't the hip thing they are today, but the people we reached out to loved the idea: Let's radically transform capitalism and the way business is conducted. Virgance had a special ownership structure, the goal of which was to promote the growth of individual businesses as entities within a larger ecosystem. Anyway, the whole world felt at that time, much as it does today, on the verge of a great tipping point. The iPhone had just come out, Obama had just been elected: The world was ready for what we were building.</p>
 
-              <p>We started out with four business units. Carrotmob, 1BOG, Green Options Media, Lend and Greenfund. I was the sole designer and front end developer for most of these products, and I felt like a kid in a candy store. Over the next few years, I would work on everything from novel voting interfaces for volunteers around the globe to designing a blogging platform for green bloggers. With Carrotmob, I was able to design and build a Instant Runoff Voting platform. With Lend, I designed and built an incredible Facebook game and were able to work with big brands—though it never ended up going anywhere. There was Slivergiver, which was a noble attempt at exploiting a loophole in Amazon's referral business. With Greenfund, we did more work with spreadsheets—the goal was to make a virtuous investment ecosystem. Green Options Media served up millions of pageviews a month at its peak, and I had my hands in all of it. Then there was One Block Off the Grid (1BOG). At this point, we were a team of about 20 people. We'd raised an angel round and our Series A, and that summer, I think we had almost 40 interns. Things were blowing up. But they were blowing up primarily in one area of the company.</p>
+              <p>We started out with four business units. Carrotmob, 1BOG, Green Options Media, Lend and Greenfund. I was the sole designer and front end developer for most of these products, and I felt like a kid in a candy store. Over the next few years, I would work on everything from novel voting interfaces for volunteers around the globe to designing a blogging platform for green bloggers. With Carrotmob, I was able to design and build a Instant Runoff Voting platform. With Lend, I designed and built an incredible Facebook game and were able to work with big brands-though it never ended up going anywhere. There was Slivergiver, which was a noble attempt at exploiting a loophole in Amazon's referral business. With Greenfund, we did more work with spreadsheets-the goal was to make a virtuous investment ecosystem. Green Options Media served up millions of pageviews a month at its peak, and I had my hands in all of it. Then there was One Block Off the Grid (1BOG). At this point, we were a team of about 20 people. We'd raised an angel round and our Series A, and that summer, I think we had almost 40 interns. Things were blowing up. But they were blowing up primarily in one area of the company.</p>
             </div>
           </div>
           <div class="time-period growing-a-solar-company">

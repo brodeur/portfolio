@@ -535,19 +535,17 @@ header a.menu-item:hover {
   margin-left: 13%;
   min-height: 72rem;
   position: relative;
-  top: 5%;
 }
 
  .section.toolbox .wrapper {
    width: 73%;
    margin-left: 21%;
-   min-height: 72rem;
    position: relative;
    top: 12%;
  }
 
 .scatter-plot {
-  height: 72rem;
+  height: 62rem;
   width: 100%;
   position: relative;
 }
@@ -697,20 +695,20 @@ ul.menu {
 }
 
 .users-shoes img {
-  width: 36%;
+  width: 32%;
   margin: 10% auto 5% auto;
 }
 
 .interface-design img {
-  width: 71%;
+  width: 68%;
   margin: 8% auto 0 auto;
 }
 
 .code img {
   width: 100%;
   position: absolute;
-  margin: 17% auto 0 auto;
-  left: -25%;
+  margin: 11% auto 0 auto;
+  left: -28%;
 }
 
 .skills-descriptions h2 {
@@ -736,7 +734,7 @@ ul.menu {
 
 .scatter-plot .quadrant {
   width: 50%;
-  height: 36rem;
+  height: 31rem;
   float: left;
 }
 
@@ -801,7 +799,7 @@ ul.menu {
   width: 6rem;
   margin-left: -3rem;
   text-align: center;
-  top: 75rem;
+  top: 65rem;
 }
 
 .labels .master, .labels .master em {
@@ -809,7 +807,7 @@ ul.menu {
 }
 
 .labels .seasoned {
-  top: 35rem;
+  top: 30rem;
 }
 
 .labels .seasoned em {
@@ -817,7 +815,7 @@ ul.menu {
 }
 
 .labels .novice {
-  top: 71rem;
+  top: 61rem;
 }
 
 .labels .novice em {
@@ -857,12 +855,12 @@ ul.menu {
 .y-axis-description {
   transform: rotate(-90deg);
   left: -7.4rem;
-  top: 35rem;
+  top: 29.5rem;
 }
 
 .x-axis-description {
   left: 40%;
-  top: 68rem;
+  top: 58rem;
 }
 
 .points {
@@ -1694,8 +1692,8 @@ ul.menu {
 }
 
 .cloud-2 {
-  left: -800px;
-  z-index: 3;
+  left: 800px;
+  z-index: 0;
   background-image: url('../images/cloud-2.png');
   width: 1997px;
   height: 738px;
@@ -1707,6 +1705,8 @@ ul.menu {
   animation-timing-function: linear;
   transition: all .5s;
   transform-style: preserve-3d;
+  transform: rotate(180deg);
+  top: 0;
 }
 
 @keyframes animateCloud2 {

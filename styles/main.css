@@ -1311,6 +1311,10 @@ ul.menu {
   height: 982px !important; 
 }
 
+.toolbox .fp-tableCell {
+  display: block;
+}
+
 .section.story .wrapper {
   width: 82%;
   margin-top: 5%;

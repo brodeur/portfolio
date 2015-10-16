@@ -23,20 +23,19 @@
           $(".black-unicorn, .intro-content").addClass("zoomOut");
           $(".cloud").fadeOut();
           $(".close-email").fadeIn();
-          $(".unicorn-email-thread").addClass("animated fadeInUp");
+          $(".unicorn-email-thread").fadeIn();
           $(".unicorn-email-bg, .close-email, .close-email-wrapper").addClass("block");
           $(".intro .wrapper").addClass("email-opened");
-          $(".portfolio").fullpage({
-            anchors : ['intro', 'story', 'skills', 'toolbox'],
-          });
           $(".unicorn-email-bg, .close-email .orange-btn").click(function(e){
             $(".cloud").fadeIn();
             $(".close-email").fadeOut();
             $(".black-unicorn, .intro-content").removeClass("zoomOut");
-            $(".unicorn-email-thread").removeClass("animated fadeInUp");
+            $(".unicorn-email-thread").fadeOut();
             $(".unicorn-email-bg, .close-email-wrapper").removeClass("block");
             $(".intro .wrapper").removeClass("email-opened");
-
+          });
+          $(".portfolio").fullpage({
+            anchors : ['intro', 'story', 'skills', 'toolbox'],
           });
         });
       });
@@ -95,6 +94,8 @@
             <p>What's your dream? Maybe I can help you. <a class="orange-btn nav-item" href="#skills">Find out how</a></p>
           </div>
           <div class="unicorn-email-thread">
+            <div class="close-email-wrapper">
+            <div class="close-email"><a class="orange-btn">Close email</a></div></div>
             <div class="email suelyn-response">
               <div class="top-heading"></div>
               <div class="email-header">
@@ -131,9 +132,6 @@
                 <p>Suelyn</p>
               </div>
             </div>
-          </div>
-          <div class="close-email-wrapper">
-          <div class="close-email"><a class="orange-btn">Close email</a></div>
           </div>
           <div class="unicorn-email-bg"></div>
         </div>
@@ -475,5 +473,6 @@
       ga('create', 'UA-68824306-1', 'auto');
       ga('send', 'pageview');
     </script>
+
   </body>
 </html>

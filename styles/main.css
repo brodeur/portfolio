@@ -39,10 +39,9 @@ html, body {
   height: 65.2rem;
   background-size: 100%;
   background-repeat: no-repeat;
-  float: left;
-  margin-top: 5%;
+  top: 9%;
   position: absolute;
-  z-index: 100;
+  z-index: 2;
   right: 60%;
 }
 
@@ -600,7 +599,7 @@ ul.menu {
 
 .intro-content {
   position: absolute;
-  z-index: 200;
+  z-index: 4;
   width: 44%;
   padding-left: 5%;
   color: rgba(255,255,255,1);
@@ -1301,10 +1300,15 @@ ul.menu {
   background-color: rgba(125,116,195,.4);
 }
 
-.fp-tableCell {
+.story .fp-tableCell {
   vertical-align: top;
   height: 100% !important;
   display: block;
+}
+
+.intro .fp-tableCell {
+  display: block;
+  height: 982px !important; 
 }
 
 .section.story .wrapper {
@@ -1672,7 +1676,7 @@ ul.menu {
 .cloud-1 {
   right: 0;
   margin-right: -400px;
-  z-index: 0;
+  z-index: 1;
   background-image: url('../images/cloud-1.png');
   height: 997px;
   width: 1200px;
@@ -1687,7 +1691,7 @@ ul.menu {
 
 .cloud-2 {
   left: -800px;
-  z-index: 150;
+  z-index: 3;
   background-image: url('../images/cloud-2.png');
   width: 1997px;
   height: 738px;
@@ -1784,7 +1788,6 @@ ul.menu {
   } 99% {
     opacity: 0;
   } 100% {
-    display: none;
     opacity: 0;
   }
 }
@@ -1799,16 +1802,18 @@ ul.menu {
   } 99% {
     opacity: 0;
   } 100% {
-    display: none;
     opacity: 0;
   }
+}
+
+.intro .slimScrollDiv {
 }
 
 .zoomOut {
   -webkit-animation-name: zoomOut;
   animation-name: zoomOut;
   animation-duration: 2s;
-  opacity: 0;
+  display: none;
 }
 
 .cloud.zoomOut {
@@ -1819,8 +1824,9 @@ ul.menu {
 .unicorn-email-thread {
   display: none;
   clear: both;
-  z-index: 10000;
+  z-index: 6;
   width: 72rem;
+  position: relative;
 }
 
 .unicorn-email-thread.animated {
@@ -1956,13 +1962,12 @@ ul.menu {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 5;
   display: none;
 }
 
 .close-email {
   position: fixed;
-  z-index: 10000000;
   bottom: 0;
   left: 50%;
   background-color: rgba(255,255,255,1);
@@ -1981,10 +1986,10 @@ ul.menu {
 
 .close-email-wrapper {
   display: none;
-  width: 100%;
+  width: 0;
   height: 0;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100000;
+  z-index: 111111;
 }

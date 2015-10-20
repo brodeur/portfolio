@@ -23,4 +23,50 @@ $(document).ready(function(){
     $(".points").html(items);
   });
   
+  
+  
+$(".unicorn-horn").click(function(){
+  $(".black-unicorn, .intro-content").addClass("zoomOut");
+  $(".cloud").fadeOut();
+  $(".close-email").fadeIn();
+  $(".unicorn-email-thread").fadeIn();
+  $(".unicorn-email-bg, .close-email, .close-email-wrapper").addClass("block");
+  $(".intro .wrapper").addClass("email-opened");
+  $(".unicorn-email-bg, .close-email .orange-btn").click(function(e){
+    $(".cloud").fadeIn();
+    $(".close-email").fadeOut();
+    $(".black-unicorn, .intro-content").removeClass("zoomOut");
+    $(".unicorn-email-thread").fadeOut();
+    $(".unicorn-email-bg, .close-email-wrapper").removeClass("block");
+    $(".intro .wrapper").removeClass("email-opened");
+    $.fn.fullpage.reBuild();
+  });
+  $.fn.fullpage.reBuild();
+});
+
+  
+});
+
+$(window).bind('hashchange', function(e) {
+  var class_name;
+  switch(location.hash) {
+    case "#story/1": 
+      class_name = "first";
+    break;
+    case "#story/2":
+      class_name = "second";
+    break;
+    case "#story/3":
+      class_name = "third";
+    break;
+    case "#story/4":
+      class_name = "fourth";
+    break;
+    case "#story/5":
+      class_name = "fifth";
+    break;
+    default:
+      class_name = "home";
+  }
+  $(".section.story").removeClass("first second third fourth fifth").addClass(class_name);
 });

@@ -17,26 +17,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $(".unicorn-horn").click(function(){
-          $(".black-unicorn, .intro-content").addClass("zoomOut");
-          $(".cloud").fadeOut();
-          $(".close-email").fadeIn();
-          $(".unicorn-email-thread").fadeIn();
-          $(".unicorn-email-bg, .close-email, .close-email-wrapper").addClass("block");
-          $(".intro .wrapper").addClass("email-opened");
-          $(".unicorn-email-bg, .close-email .orange-btn").click(function(e){
-            $(".cloud").fadeIn();
-            $(".close-email").fadeOut();
-            $(".black-unicorn, .intro-content").removeClass("zoomOut");
-            $(".unicorn-email-thread").fadeOut();
-            $(".unicorn-email-bg, .close-email-wrapper").removeClass("block");
-            $(".intro .wrapper").removeClass("email-opened");
-          });
-        });
-      });
-    </script>
   </head>
   <body>
     <header>
@@ -133,10 +113,26 @@
           <div class="unicorn-email-bg"></div>
         </div>
       </div>
-      <div class="section story" data-anchor="story">
+      <div class="section story first" data-anchor="story">
+        <div class="transitional-backgrounds">
+          <div class="first"></div>
+          <div class="second"></div>
+          <div class="third"></div>
+          <div class="fourth"></div>
+          <div class="fifth"></div>
+        </div>
         <div class="wrapper">
+          <div class="timeline-menu">
+            <ul>
+              <li><a class="first"></a></li>
+              <li><a class="second"></a></li>
+              <li><a class="third"></a></li>
+              <li><a class="fourth"></a></li>
+              <li><a class="fifth"></a></li>
+            </ul>
+          </div>
           <div class="timeline"></div>
-          <div class="time-period early-years">
+          <div class="time-period slide early-years">
             <div class="left portfolio"></div>
             <div class="right story">
               <div class="timeline-callout early-years">
@@ -179,7 +175,7 @@
               <p>My father grew up all over the city. When he met my Southern Californian mother, they married and became hippie Christian ministers here, and over the course of 35 years, they ended up leading the largest congregation in the city. But at first, we lived in a commune. Then, my parents found a spot near Lake Merced with a big backyard and rope swings and chickens and goats. Yup, goats. I was homeschooled and so was able to graduate "high school" early and go to college at 16. I didn't study much about what I do now, but that's when I began investing my time into learning how the internet worked. My best friend Levi and I built our first websites together-a SWATCH sales portal and a corporate website for his brother's climbing gym company. It felt like magic, then, to make money building things that lived on the internet.</p>
             </div>
           </div>
-          <div class="time-period learning-to-hustle">
+          <div class="time-period slide learning-to-hustle">
             <div class="left story">
               <div class="timeline-callout learning-to-hustle">
                 <em></em>
@@ -225,7 +221,7 @@
             </div>
             <div class="right portfolio"></div>
           </div>
-          <div class="time-period designing-an-incubator">
+          <div class="time-period slide designing-an-incubator">
             <div class="left portfolio"></div>
             <div class="right story">
               <div class="timeline-callout designing-an-incubator">
@@ -270,7 +266,7 @@
               <p>We started out with four business units. Carrotmob, 1BOG, Green Options Media, Lend and Greenfund. I was the sole designer and front end developer for most of these products, and I felt like a kid in a candy store. Over the next few years, I would work on everything from novel voting interfaces for volunteers around the globe to designing a blogging platform for green bloggers. With Carrotmob, I was able to design and build a Instant Runoff Voting platform. With Lend, I designed and built an incredible Facebook game and were able to work with big brands-though it never ended up going anywhere. There was Slivergiver, which was a noble attempt at exploiting a loophole in Amazon's referral business. With Greenfund, we did more work with spreadsheets-the goal was to make a virtuous investment ecosystem. Green Options Media served up millions of pageviews a month at its peak, and I had my hands in all of it. Then there was One Block Off the Grid (1BOG). At this point, we were a team of about 20 people. We'd raised an angel round and our Series A, and that summer, I think we had almost 40 interns. Things were blowing up. But they were blowing up primarily in one area of the company.</p>
             </div>
           </div>
-          <div class="time-period growing-a-solar-company">
+          <div class="time-period slide growing-a-solar-company">
             <div class="left story">
               <div class="timeline-callout growing-a-solar-company">
                 <em></em>
@@ -317,7 +313,7 @@
             </div>
             <div class="right portfolio"></div>
           </div>
-          <div class="time-period tale-of-two-acquisitions">
+          <div class="time-period slide tale-of-two-acquisitions">
             <div class="left portfolio"></div>
             <div class="right story">
               <div class="timeline-callout tale-of-two-acquisitions">
@@ -363,7 +359,7 @@
 
             </div>
           </div>
-          <div class="time-period next-steps">
+          <div class="time-period slide next-steps">
             <div class="left story">
               <div class="timeline-callout next-steps">
                 <em></em>

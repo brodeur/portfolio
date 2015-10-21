@@ -1424,7 +1424,7 @@ ul.menu {
   border-bottom: 1rem solid rgba(255,255,255,.5);
   position: absolute;
   height: 1rem;
-  top: 8.1rem;
+  top: 8rem;
   left: 25%;
   z-index: 99;
 }
@@ -1499,7 +1499,8 @@ ul.menu {
   position: absolute;
   z-index: 100;
   left: 25%;
-  height: 8%;
+  height: 0;
+  top: 9.25rem;
 }
 
 .timeline-menu ul {
@@ -1570,22 +1571,58 @@ ul.menu {
 
 .fp-viewing-story-first .timeline-menu a.first, .fp-viewing-story-second .timeline-menu a.second, .fp-viewing-story-third .timeline-menu a.third, .fp-viewing-story-fourth .timeline-menu a.fourth, .fp-viewing-story-fifth .timeline-menu a.fifth, .fp-viewing-story-sixth .timeline-menu a.sixth {
   border: 1rem solid rgba(255,255,255,1);
-  width: 7rem;
-  height: 7rem;
-  left: -4.5rem;
-  top: -2.5rem;
+  width: 8rem;
+  height: 8rem;
+  left: -5rem;
+  top: -5rem;
+  font-size: 1.8rem;
+  color: rgba(0,0,0,.7);
+  line-height: 2.4rem;
 }
 
 .timeline-menu a {
+  font-size: 1.1rem;
   border-radius: 5rem;
   border: .5rem solid rgba(255,255,255,.5);
   display: block;
   position: absolute;
-  transition: all .5s;
-  width: 2.5rem;
-  height: 2.5rem;
-  top: 0rem;
-  left: -1.25rem;
+  transition: all .25s ease;
+  width: 5rem;
+  height: 5rem;
+  top: -3rem;
+  left: -3rem;
+  text-align: center;
+  line-height: .8rem;
+  color: rgba(0,0,0,.4);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.timeline-menu a:hover {
+  border: 1rem solid rgba(255,255,255,1);
+  width: 6rem;
+  height: 6rem;
+  left: -4rem;
+  top: -4rem;
+  font-size: 1.4rem;
+  color: rgba(0,0,0,.7);
+  line-height: 1.2rem;
+  cursor: pointer;
+}
+
+.timeline-menu a:hover span {
+  top: 1.4rem;
+}
+
+.timeline-menu a span {
+  display: inline-block;
+  position: relative;
+  top: 1.3rem;
+}
+
+.fp-viewing-story-first .timeline-menu a.first span, .fp-viewing-story-second .timeline-menu a.second span,.fp-viewing-story-third .timeline-menu a.third span,.fp-viewing-story-fourth .timeline-menu a.fourth span, .fp-viewing-story-fifth .timeline-menu a.fifth span,.fp-viewing-story-sixth .timeline-menu a.sixth span {
+  top: 1.8rem;
+  line-height: 1.4rem;
 }
 
 .left .timeline-callout em {

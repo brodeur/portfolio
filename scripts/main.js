@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $(".portfolio").fullpage({
-    anchors : ['intro', 'story', 'skills', 'toolbox'],
+    anchors : ['intro', 'story', 'skills', 'tools'],
+    controlArrows: false
   });
   $(".filter-toggle").click(function(){
     var filter = $(this).attr("filter");

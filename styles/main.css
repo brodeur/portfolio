@@ -492,7 +492,7 @@ html, body {
   background-image: url('../images/intro-bg.jpg');
 }
 
-.fp-viewing-story-0 .transitional-backgrounds div.first, .fp-viewing-story-1 .transitional-backgrounds div.second, .fp-viewing-story-2 .transitional-backgrounds div.third, .fp-viewing-story-3 .transitional-backgrounds div.fourth, .fp-viewing-story-4 .transitional-backgrounds div.fifth, .fp-viewing-story-5 div.sixth, .fp-viewing-intro .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-toolbox .transitional-backgrounds div.tools, .transitional-backgrounds.unicorn-explanation div.unicorn-explanation {
+.fp-viewing-story-first .transitional-backgrounds div.first, .fp-viewing-story-second .transitional-backgrounds div.second, .fp-viewing-story-third .transitional-backgrounds div.third, .fp-viewing-story-fourth .transitional-backgrounds div.fourth, .fp-viewing-story-fifth .transitional-backgrounds div.fifth, .fp-viewing-story-sixth div.sixth, .fp-viewing-intro .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-tools .transitional-backgrounds div.tools, .transitional-backgrounds.unicorn-explanation div.unicorn-explanation {
   opacity: 1;
 }
 
@@ -534,7 +534,7 @@ html, body {
 }
 
 .transitional-backgrounds .fifth {
-  background: ;
+  background: rgba(82,167,168,1);
   background: -moz-linear-gradient(top, rgba(82,167,168,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(82,167,168,1)), color-stop(41%,rgba(77,161,173,1)), color-stop(54%,rgba(68,153,181,1)), color-stop(70%,rgba(57,146,191,1)), color-stop(100%,rgba(44,139,201,1)));
   background: -webkit-linear-gradient(top, rgba(82,167,168,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
@@ -545,7 +545,7 @@ html, body {
 }
 
 .transitional-backgrounds .sixth {
-  background: ;
+  background: rgba(118,58,194,1);
   background: -moz-linear-gradient(top, rgba(118,58,194,1) 0%, rgba(76,90,185,1) 41%, rgba(63,101,193,1) 54%, rgba(48,115,211,1) 70%, rgba(39,125,223,1) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(118,58,194,1)), color-stop(41%,rgba(76,90,185,1)), color-stop(54%,rgba(63,101,193,1)), color-stop(70%,rgba(48,115,211,1)), color-stop(100%,rgba(39,125,223,1)));
   background: -webkit-linear-gradient(top, rgba(118,58,194,1) 0%, rgba(76,90,185,1) 41%, rgba(63,101,193,1) 54%, rgba(48,115,211,1) 70%, rgba(39,125,223,1) 100%);
@@ -606,6 +606,11 @@ header a.menu-item:hover {
   border-color: rgba(255,255,255,.5);
   cursor: pointer;
 }
+
+.fp-viewing-story-first header a.menu-item.work, .fp-viewing-story-second header a.menu-item.work, .fp-viewing-story-third header a.menu-item.work, .fp-viewing-story-fourth header a.menu-item.work, .fp-viewing-story-fifth header a.menu-item.work, .fp-viewing-story-sixth header a.menu-item.work, .fp-viewing-skills header a.menu-item.skills, .fp-viewing-tools header a.menu-item.tools {
+  background-color: rgba(255,255,255,1);
+  color: rgba(0,0,0,.6);
+} 
 
 .portfolio {
   width: 100%;
@@ -1415,12 +1420,13 @@ ul.menu {
 }
 
 .timeline {
-  width: 100%;
+  width: 50%;
   border-bottom: 1rem solid rgba(255,255,255,.5);
   position: absolute;
   height: 1rem;
   top: 8.1rem;
-  left: 0;
+  left: 25%;
+  z-index: 99;
 }
 
 .time-period p {
@@ -1488,53 +1494,98 @@ ul.menu {
   float: right;
 }
 
-.timeline-menu .first {
+.timeline-menu {
+  width: 50%;
+  position: absolute;
+  z-index: 100;
+  left: 25%;
+  height: 8%;
+}
+
+.timeline-menu ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-menu ul li {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  overflow: visible;
+}
+
+.timeline-menu a.first {
   background-color: rgba(252,235,155,1);
 }
 
-.timeline-menu .second {
+.timeline-menu a.second {
   background-color: rgba(155,252,192,1);
 }
 
-.timeline-menu .third {
+.timeline-menu a.third {
   background-color: rgba(166,197,255,1);
 }
 
-.timeline-menu .fourth {
+.timeline-menu a.fourth {
   background-color: rgba(230,155,252,1);
 }
 
-.timeline-menu .fifth {
+.timeline-menu a.fifth {
   background-color: rgba(255,129,185,1);
 }
 
-.story.first .timeline-menu a.first, .story.second .timeline-menu a.second, .story.third .timeline-menu a.third, .story.fourth .timeline-menu a.fourth, .story.fifth .timeline-menu a.fifth {
+.timeline-menu a.sixth {
+  background-color: red;
+  
+}
+
+
+.timeline-menu li.first {
+  left: 0;
+}
+
+.timeline-menu li.second {
+  left: 20%;
+}
+
+.timeline-menu li.third {
+  left: 40%;
+}
+
+.timeline-menu li.fourth {
+  right: 40%;
+}
+
+.timeline-menu li.fifth {
+  right: 20%;
+}
+
+.timeline-menu li.sixth {
+  right: 0%;
+}
+
+
+.fp-viewing-story-first .timeline-menu a.first, .fp-viewing-story-second .timeline-menu a.second, .fp-viewing-story-third .timeline-menu a.third, .fp-viewing-story-fourth .timeline-menu a.fourth, .fp-viewing-story-fifth .timeline-menu a.fifth, .fp-viewing-story-sixth .timeline-menu a.sixth {
   border: 1rem solid rgba(255,255,255,1);
+  width: 7rem;
+  height: 7rem;
+  left: -4.5rem;
+  top: -2.5rem;
 }
 
 .timeline-menu a {
-  width: 5rem;
-  height: 5rem;
   border-radius: 5rem;
-  border: 1rem solid rgba(255,255,255,.5);
+  border: .5rem solid rgba(255,255,255,.5);
   display: block;
   position: absolute;
   transition: all .5s;
-}
-
-.timeline-callout em {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 5rem;
-  border: 1rem solid rgba(255,255,255,.5);
-  display: block;
-  position: absolute;
-}
-
-.timeline-callout {
-  position: absolute;
-  width: 1rem;
-  left: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 0rem;
+  left: -1.25rem;
 }
 
 .left .timeline-callout em {

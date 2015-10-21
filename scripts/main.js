@@ -48,6 +48,10 @@ $(".unicorn-horn").click(function(){
 });
 
 $(window).bind('hashchange', function(e) {
+  showBackground();
+});
+
+function showBackground() {
   var class_name;
   switch(location.hash) {
     case "#story/1": 
@@ -68,5 +72,5 @@ $(window).bind('hashchange', function(e) {
     default:
       class_name = "home";
   }
-  $(".section.story").removeClass("first second third fourth fifth").addClass(class_name);
-});
+  $(".transitional-backgrounds").removeClass().addClass("transitional-backgrounds " + class_name);
+}

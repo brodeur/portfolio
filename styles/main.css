@@ -472,34 +472,27 @@ html, body {
 }
 
 .section.intro {
-  background-image: url('../images/intro-bg.jpg');  
   overflow-x: hidden;
 }
 
-.section.skills {
+.transitional-backgrounds .skills {
   background-image: url('../images/skills-bg.jpg');
 }
 
-.section.story {
-  background: rgba(133,49,112,1);
-  background: -moz-linear-gradient(top, rgba(132,49,112,1) 0%, rgba(131,61,144,1) 41%, rgba(138,71,144,1) 54%, rgba(147,78,139,1) 70%, rgba(182,111,116,1) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(132,49,112,1)), color-stop(41%,rgba(131,61,144,1)), color-stop(54%,rgba(138,71,144,1)), color-stop(70%,rgba(147,78,139,1)), color-stop(100%,rgba(182,111,116,1)));
-  background: -webkit-linear-gradient(top, rgba(132,49,112,1) 0%,rgba(131,61,144,1) 41%,rgba(138,71,144,1) 54%,rgba(147,78,139,1) 70%,rgba(182,111,116,1) 100%);
-  background: -o-linear-gradient(top, rgba(132,49,112,1) 0%,rgba(131,61,144,1) 41%,rgba(138,71,144,1) 54%,rgba(147,78,139,1) 70%,rgba(182,111,116,1) 100%);
-  background: -ms-linear-gradient(top, rgba(132,49,112,1) 0%,rgba(131,61,144,1) 41%,rgba(138,71,144,1) 54%,rgba(147,78,139,1) 70%,rgba(182,111,116,1) 100%);
-  background: linear-gradient(to bottom, rgba(132,49,112,1) 0%,rgba(131,61,144,1) 41%,rgba(138,71,144,1) 54%,rgba(147,78,139,1) 70%,rgba(182,111,116,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#853170', endColorstr='#b66f74',GradientType=0 );
-}
-
-.section.story .transitional-backgrounds div {
+.transitional-backgrounds div {
   opacity: 0;
   width: 100%;
   height: 100%;
   position: absolute;
   transition: opacity .5s;
+  background-size: cover;
 }
 
-.section.story.first .transitional-backgrounds div.first, .section.story.second .transitional-backgrounds div.second, .section.story.third .transitional-backgrounds div.third, .section.story.fourth .transitional-backgrounds div.fourth, .section.story.fifth .transitional-backgrounds div.fifth {
+.transitional-backgrounds .intro {
+  background-image: url('../images/intro-bg.jpg');
+}
+
+.fp-viewing-story-0 .transitional-backgrounds div.first, .fp-viewing-story-1 .transitional-backgrounds div.second, .fp-viewing-story-2 .transitional-backgrounds div.third, .fp-viewing-story-3 .transitional-backgrounds div.fourth, .fp-viewing-story-4 .transitional-backgrounds div.fifth, .fp-viewing-intro .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-toolbox .transitional-backgrounds div.tools, .transitional-backgrounds.unicorn-explanation div.unicorn-explanation {
   opacity: 1;
 }
 
@@ -529,7 +522,18 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#853170', endColorstr='#b66f74',GradientType=0 );
 }
 
-.section.story.fourth {
+.transitional-backgrounds .third {
+  background: rgba(193,219,107,1);
+  background: -moz-linear-gradient(top, rgba(193,219,107,1) 0%, rgba(156,200,84,1) 41%, rgba(127,189,81,1) 54%, rgba(97,161,83,1) 70%, rgba(74,137,97,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(193,219,107,1)), color-stop(41%,rgba(156,200,84,1)), color-stop(54%,rgba(147,175,63,1)), color-stop(70%,rgba(156,139,35,1)), color-stop(100%,rgba(173,123,20,1)));
+  background: -webkit-linear-gradient(top, rgba(193,219,107,1) 0%, rgba(156,200,84,1) 41%, rgba(127,189,81,1) 54%, rgba(97,161,83,1) 70%, rgba(74,137,97,1) 100%);
+  background: -o-linear-gradient(top, rgba(193,219,107,1) 0%, rgba(156,200,84,1) 41%, rgba(127,189,81,1) 54%, rgba(97,161,83,1) 70%, rgba(74,137,97,1) 100%);
+  background: -ms-linear-gradient(top, rgba(193,219,107,1) 0%, rgba(156,200,84,1) 41%, rgba(127,189,81,1) 54%, rgba(97,161,83,1) 70%, rgba(74,137,97,1) 100%);
+  background: linear-gradient(to bottom, rgba(193,219,107,1) 0%, rgba(156,200,84,1) 41%, rgba(127,189,81,1) 54%, rgba(97,161,83,1) 70%, rgba(74,137,97,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#853170', endColorstr='#b66f74',GradientType=0 );
+}
+
+.transitional-backgrounds .fourth {
   background: ;
   background: -moz-linear-gradient(top,  0%,  41%,  54%,  70%,  100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,), color-stop(41%,), color-stop(54%,), color-stop(70%,), color-stop(100%,));
@@ -540,7 +544,7 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#853170', endColorstr='#b66f74',GradientType=0 );
 }
 
-.section.story.fifth {
+.transitional-backgrounds .sixth {
   background: ;
   background: -moz-linear-gradient(top,  0%,  41%,  54%,  70%,  100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,), color-stop(41%,), color-stop(54%,), color-stop(70%,), color-stop(100%,));
@@ -551,18 +555,7 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#853170', endColorstr='#b66f74',GradientType=0 );
 }
 
-.section.story.sixth {
-  background: ;
-  background: -moz-linear-gradient(top,  0%,  41%,  54%,  70%,  100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,), color-stop(41%,), color-stop(54%,), color-stop(70%,), color-stop(100%,));
-  background: -webkit-linear-gradient();
-  background: -o-linear-gradient();
-  background: -ms-linear-gradient();
-  background: linear-gradient(to bottom, rgba(132,49,112,1) 0%,rgba(131,61,144,1) 41%,rgba(138,71,144,1) 54%,rgba(147,78,139,1) 70%,rgba(182,111,116,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#853170', endColorstr='#b66f74',GradientType=0 );
-}
-
-.section.toolbox {
+.transitional-backgrounds .tools {
   background-image: url('../images/tools-bg.jpg');
 }
 
@@ -1811,7 +1804,7 @@ ul.menu {
   background-size: cover;
   background-repeat: no-repeat;
   animation-name: animateCloud2;
-  animation-duration: 60000ms;
+  animation-duration: 30000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   transition: all .5s;
@@ -1826,7 +1819,7 @@ ul.menu {
     opacity: 0;
   } 75% { 
     left: -1350px;
-    opacity: 0.4;
+    opacity: 0.6;
   } 100% {
     left: -1450px;
     opacity: 0;

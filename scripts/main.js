@@ -23,23 +23,4 @@ $(document).ready(function(){
     });
     $(".points").html(items);
   });
-  
-  $(".unicorn-horn").click(function(){
-    $(".black-unicorn, .intro-content").addClass("zoomOut");
-    $(".cloud").fadeOut();
-    $(".close-email").fadeIn();
-    $(".unicorn-email-thread").fadeIn();
-    $(".unicorn-email-bg, .close-email, .close-email-wrapper").addClass("block");
-    $(".intro .wrapper").addClass("email-opened");
-    $(".unicorn-email-bg, .close-email .orange-btn").click(function(e){
-      $(".cloud").fadeIn();
-      $(".close-email").fadeOut();
-      $(".black-unicorn, .intro-content").removeClass("zoomOut");
-      $(".unicorn-email-thread").fadeOut();
-      $(".unicorn-email-bg, .close-email-wrapper").removeClass("block");
-      $(".intro .wrapper").removeClass("email-opened");
-      $.fn.fullpage.reBuild();
-    });
-    $.fn.fullpage.reBuild();
-  });
 });

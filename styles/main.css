@@ -5,6 +5,8 @@ html, body {
   font-size: 62.5%;
 }
 
+a[onclick], a:hover, body a:hover, a { cursor: pointer; }
+
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -467,12 +469,20 @@ html, body {
 
 .section {
   width: 100%;
-  height: 100%;
   background-size: cover;
 }
 
 .section.intro {
   overflow-x: hidden;
+}
+
+.transitional-backgrounds {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .transitional-backgrounds .skills {
@@ -615,6 +625,8 @@ header a.menu-item:hover {
 .portfolio {
   width: 100%;
   height: 100%;
+  position: relative;
+  z-index: 2;
 }
 
 .section.skills .wrapper {
@@ -973,6 +985,7 @@ ul.menu {
   background-repeat: no-repeat;
   transition: all .5s;
   left: -2.5rem;
+  top: 0;
   z-index: 150;
   opacity: 1;
 }
@@ -1002,7 +1015,6 @@ ul.menu {
   width: 40rem;
   position: absolute;
   left: -20rem;
-  top: 5rem;
   z-index: 100;
   border-radius: .3rem;
 }
@@ -1030,6 +1042,7 @@ ul.menu {
 }
 
 .important-relationships li:hover .relationship-photo {
+  top: -4.5rem;
   border: .5rem solid rgba(255,255,255,1);
   background-size: 120%;
 }
@@ -1209,12 +1222,14 @@ ul.menu {
 
 .tool:hover .info, .important-relationships li:hover .relationship {
   height: auto;
+  bottom: 0;
   display: block;
   animation-name: showTool;
   animation-duration: .5s;
   -webkit-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.1);
   -moz-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.1);
   box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.1);
+  padding-bottom: 5rem;
 }
 
 
@@ -1401,9 +1416,8 @@ ul.menu {
 }
 
 .section.story .wrapper {
-  width: 82%;
-  margin-top: 5%;
-  margin-left: 14%;
+  width: 100%;
+  height: 100%;
 }
 
 .section.story {
@@ -1420,7 +1434,7 @@ ul.menu {
 }
 
 .timeline {
-  width: 50%;
+  width: 57.5%;
   border-bottom: 1rem solid rgba(255,255,255,.5);
   position: absolute;
   height: 1rem;
@@ -1439,14 +1453,11 @@ ul.menu {
 
 .time-period h2 {
   color: rgba(255,255,255,1);
-  font-size: 4.5rem;
+  font-size: 4.8rem;
   font-weight: 900;
   font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
   margin-bottom: 2.5rem;
-}
-
-.time-period .left h2{
-  text-align: right;
+  padding-top: 5rem;
 }
 
 .time-period h2.large {
@@ -1481,21 +1492,21 @@ ul.menu {
 }
 
 .time-period .left, .time-period .right {
-  width: 45%;
+  width: 33%;
 }
 
 .time-period .left {
-  margin-right: 5%;
+  margin-left: 15%;
   float: left;
 }
 
 .time-period .right {
-  margin-left: 5%;
+  margin-right: 15%;
   float: right;
 }
 
 .timeline-menu {
-  width: 50%;
+  width: 57.5%;
   position: absolute;
   z-index: 100;
   left: 25%;
@@ -1539,7 +1550,7 @@ ul.menu {
 }
 
 .timeline-menu a.sixth {
-  background-color: red;
+  background-color: rgba(255,129,129,1);
   
 }
 
@@ -1784,13 +1795,60 @@ ul.menu {
 
 .important-relationships {
   background-color: rgba(238,238,238,1);
-  position: relative;
+  position: absolute;
   padding: 1rem;
   text-align: center;
+  bottom: 0;
+  left: 15%;
+  width: 30%;
+  transition: all .5s;
+}
+
+.important-relationships h4 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: rgba(0,0,0,0.6);
+  text-align: left;
+  display: inline-block;
+  float: left;
+  padding: 1rem;
+}
+
+.important-relationships h4 span {
+  font-size: 1.4rem;
+  font-weight: 100;
+  font-style: italic;
+  color: rgba(0,0,0,0.4);
+  display: block;
+  padding-top: 0.3rem;
+}
+
+.fp-viewing-story-first .important-relationships {
+  background-color: rgba(252,235,155,1);
+}
+
+.fp-viewing-story-second .important-relationships {
+  background-color: rgba(155,252,192,1);
+}
+
+.fp-viewing-story-third .important-relationships {
+  background-color: rgba(166,197,255,1);
+}
+
+.fp-viewing-story-fourth .important-relationships {
+  background-color: rgba(230,155,252,1);
+}
+
+.fp-viewing-story-fifth .important-relationships {
+  background-color: rgba(255,129,185,1);
+}
+
+.fp-viewing-story-sixth .important-relationships {
+  background-color: rgba(255,129,129,1);
 }
 
 .important-relationships li {
-  position: relative;
+  position: absolute;
   display: inline-block;
   list-style: none;
   width: 3rem;
@@ -1805,31 +1863,36 @@ ul.menu {
   display: block;
   left: 0;
   background-size: 140%;
+  position: relative;
 }
 
-.time-period .left .relationship h2, .time-period .right .relationship h2 {
+.relationship h2 {
   font-size: 1.6rem;
   font-family: "proxima-nova";
-  font-weight: 100;
-  color: rgba(162,152,149,1);
-  margin-bottom: 0;
-}
-
-.time-period .left .relationship h2 span, .time-period .right .relationship h2 span {
-  color: rgba(90,90,90,1);
-  display: block;
   font-weight: bold;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-}
-
-.relationship h2.left, .relationship h2.right {
+  color: rgba(0,0,0,0.8);
+  margin-bottom: 0;
 }
 
 .relationship h2.left {
   text-align: left;
-  padding: 6rem 0 2rem 2rem;
+  padding: 2rem 0 2rem 2rem;
   width: 50%;
+  margin-left: 0;
+}
+
+.time-period .relationship h2.right {
+  text-align: right;
+  padding: 2rem 2rem 2rem 0;
+  margin-right: 0;
+}
+
+.relationship h2 span {
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: block;
+  font-style: italic;
+  color: rgba(162,152,149,1);
 }
 
 .time-period .left .relationship h2.right, .time-period .right .relationship h2.right {

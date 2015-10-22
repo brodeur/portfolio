@@ -1400,21 +1400,6 @@ ul.menu {
   background-color: rgba(125,116,195,.4);
 }
 
-.story .fp-tableCell {
-  vertical-align: top;
-  height: 100% !important;
-  display: block;
-}
-
-.intro .fp-tableCell {
-  display: block;
-  height: 982px !important; 
-}
-
-.toolbox .fp-tableCell {
-  display: block;
-}
-
 .section.story .wrapper {
   width: 100%;
   height: 100%;
@@ -1424,12 +1409,7 @@ ul.menu {
   padding-bottom: 0;
 }
 
-.tale-of-two-acquisitions {
-  padding-bottom: 5%;
-}
-
 .time-period {
-  padding-top: 14rem;
   position: relative;
 }
 
@@ -1493,11 +1473,20 @@ ul.menu {
 
 .time-period .left, .time-period .right {
   width: 33%;
+  padding-top: 15rem;
 }
 
 .time-period .left {
   margin-left: 15%;
   float: left;
+}
+
+.fp-section {
+  height: 100% !important;
+}
+
+.toolbox .fp-tableCell {
+  vertical-align: top;
 }
 
 .time-period .right {
@@ -1634,163 +1623,6 @@ ul.menu {
 .fp-viewing-story-first .timeline-menu a.first span, .fp-viewing-story-second .timeline-menu a.second span,.fp-viewing-story-third .timeline-menu a.third span,.fp-viewing-story-fourth .timeline-menu a.fourth span, .fp-viewing-story-fifth .timeline-menu a.fifth span,.fp-viewing-story-sixth .timeline-menu a.sixth span {
   top: 1.8rem;
   line-height: 1.4rem;
-}
-
-.left .timeline-callout em {
-  right: -3rem;
-}
-
-.right .timeline-callout em {
-  left: -3rem;
-}
-
-.timeline-callout.early-years {
-  top: 0;
-}
-
-.early-years em, .timeline-callout.early-years div, .timeline-callout.early-years div b, .early-years .tldr h3 {
-  background-color: rgba(252,235,155,1);
-}
-.timeline-callout div b {
-  width: 2rem;
-  height: 2rem;
-  display: block;
-  position: absolute;
-  transform: rotate(45deg);
-  top: 1.8rem;
-  border-radius: 0 .3rem;
-}
-
-.right .timeline-callout div b {
-  right: -1rem;
-}
-
-.left .timeline-callout div b {
-  left: -1rem;
-}
-
-.learning-to-hustle em, .timeline-callout.learning-to-hustle div, .timeline-callout.learning-to-hustle div b, .learning-to-hustle .tldr h3 {
-  background-color: rgba(221,252,155,1);
-}
-
-.designing-an-incubator em, .timeline-callout.designing-an-incubator div, .timeline-callout.designing-an-incubator div b, .designing-an-incubator .tldr h3 {
-  background-color: rgba(155,252,194,1);
-}
-
-.growing-a-solar-company em, .timeline-callout.growing-a-solar-company div, .timeline-callout.growing-a-solar-company div b, .growing-a-solar-company .tldr h3 {
-  background-color: rgba(155,223,252,1);
-}
-
-.tale-of-two-acquisitions em, .timeline-callout.tale-of-two-acquisitions div, .timeline-callout.tale-of-two-acquisitions div b, .tale-of-two-acquisitions .tldr h3 {
-  background-color: rgba(160,155,252,1);
-}
-
-.next-steps em, .timeline-callout.next-steps div, .timeline-callout.next-steps div b, .next-steps .tldr h3 {
-  background-color: rgba(252,133,113,1);
-}
-
-.early-years .timeline-callout div {
-  width: 23rem;
-  left: -33rem;
-}
-
-.learning-to-hustle .timeline-callout div {
-  width: 25rem;
-  right: -35rem;
-}
-
-.designing-an-incubator .timeline-callout div {
-  width: 28rem;
-  left: -38rem;
-}
-
-.growing-a-solar-company .timeline-callout div {
-  width: 29rem;
-  left: 9rem;
-}
-
-.tale-of-two-acquisitions .timeline-callout div {
-  width: 29rem;
-  left: -39rem;
-}
-
-.next-steps .timeline-callout div {
-  width: 18rem;
-  left: 9rem;
-}
-
-.timeline-callout div {
-  padding: 2rem;
-  font-size: 1.6rem;
-  top: .75rem;
-  position: absolute;
-  border-radius: .3rem;
-  color: rgba(0,0,0,0.6);
-}
-
-.left .timeline-callout div {
-  text-align: left;
-}
-
-.right .timeline-callout div {
-  text-align: right;
-}
-
-.timeline-callout span {
-  display: inline-block;
-  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 1000;
-}
-
-.right .timeline-callout span {
-  float: right;
-  margin-left: 1.5rem;
-  padding-left: 1.5rem;
-  border-left: .2rem solid rgba(0,0,0,.2);
-}
-
-.left .timeline-callout span {
-  float: left;
-  margin-right: 1.5rem;
-  padding-right: 1.5rem;
-  border-right: .2rem solid rgba(0,0,0,.2);
-}
-
-.story .tldr {
-  width: 30%;
-  background-color: rgba(255,255,255,1);
-}
-
-.tldr h3 {
-  font-size: 3.2rem;
-  padding: 2rem;
-  text-align: center;
-  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
-  font-style: italic;
-  color: rgba(0,0,0,0.7);
-  font-weight: 1000;
-}
-
-.story.left .tldr {
-  float: right;
-  margin-left: 5%;
-  margin-bottom: 5%;
-}
-
-.story.right .tldr {
-  float: left;
-  margin-right: 5%;
-}
-
-.tldr-description {
-  padding: 1rem;
-}
-
-.tldr-description p {
-  color: rgba(0,0,0,.6);
-  font-size: 1.4rem;
-  line-height: 2.2rem;
-  margin-bottom: 1.5rem;
 }
 
 .important-relationships {

@@ -1599,41 +1599,6 @@ ul.menu {
   font-weight: bold;
 }
 
-.fp-viewing-story-third .timeline-menu li.second a, .fp-viewing-story-third .timeline-menu li.fourth a, .fp-viewing-story-first .timeline-menu li.second a, .fp-viewing-story-second .timeline-menu li.first a, .fp-viewing-story-second .timeline-menu li.third a {
-  width: 4.5rem;
-  height: 4.5rem;
-  top: -2.75rem;
-  left: -2.75rem;
-}
-
-.fp-viewing-story-third .timeline-menu li.first a, .fp-viewing-story-third .timeline-menu li.fifth a, .fp-viewing-story-first .timeline-menu li.third a, .fp-viewing-story-second .timeline-menu li.fourth a {
-  width: 4rem;
-  height: 4rem;
-  top: -2.5rem;
-  left: -2.5rem;
-}
-
-.fp-viewing-story-third .timeline-menu li.sixth a, .fp-viewing-story-first .timeline-menu li.fourth a, .fp-viewing-story-second .timeline-menu li.fifth a {
-  width: 3.5rem;
-  height: 3.5rem;
-  top: -2.25rem;
-  left: -2.25rem;
-}
-
-.fp-viewing-story-first .timeline-menu li.fifth a, .fp-viewing-story-second .timeline-menu li.sixth a {
-  width: 3rem;
-  height: 3rem;
-  top: -2rem;
-  left: -2rem;
-}
-
-.fp-viewing-story-first .timeline-menu li.sixth a {
-  width: 2.5rem;
-  height: 2.5rem;
-  top: -1.75rem;
-  left: -1.75rem;
-}
-
 .timeline-menu a:hover {
   border: 1rem solid rgba(255,255,255,1);
   width: 6rem;

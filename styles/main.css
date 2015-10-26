@@ -501,7 +501,7 @@ a[onclick], a:hover, body a:hover, a { cursor: pointer; }
   background-image: url('../images/intro-bg.jpg');
 }
 
-.fp-viewing-story-first .transitional-backgrounds div.first, .fp-viewing-story-second .transitional-backgrounds div.second, .fp-viewing-story-third .transitional-backgrounds div.third, .fp-viewing-story-fourth .transitional-backgrounds div.fourth, .fp-viewing-story-fifth .transitional-backgrounds div.fifth, .fp-viewing-story-sixth div.sixth, .fp-viewing-intro-0 .transitional-backgrounds div.intro, .fp-viewing-intro-1 .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-tools .transitional-backgrounds div.tools, .transitional-backgrounds.unicorn-explanation div.unicorn-explanation {
+.fp-viewing-story-first .transitional-backgrounds div.first, .fp-viewing-story-second .transitional-backgrounds div.second, .fp-viewing-story-third .transitional-backgrounds div.third, .fp-viewing-story-fourth .transitional-backgrounds div.fourth, .fp-viewing-story-fifth .transitional-backgrounds div.fifth, .fp-viewing-story-sixth div.sixth, .fp-viewing-intro-0 .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-tools .transitional-backgrounds div.tools, .fp-viewing-intro-1 .transitional-backgrounds div.unicorn-explanation {
   opacity: 1;
 }
 
@@ -546,7 +546,7 @@ a[onclick], a:hover, body a:hover, a { cursor: pointer; }
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#853170', endColorstr='#b66f74',GradientType=0 );
 }
 
-.transitional-backgrounds .fourth {
+.transitional-backgrounds .fourth, .transitional-backgrounds .unicorn-explanation {
   background: rgba(82,167,168,1);
   background: -moz-linear-gradient(top, rgba(82,167,168,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(82,167,168,1)), color-stop(41%,rgba(77,161,173,1)), color-stop(54%,rgba(68,153,181,1)), color-stop(70%,rgba(57,146,191,1)), color-stop(100%,rgba(44,139,201,1)));
@@ -974,21 +974,42 @@ ul.menu {
 .tool .icon, .relationship-photo {
   height: 5rem;
   border-radius: 5rem;
-  border: .5rem solid rgba(255,255,255,.5);
+  border: .3rem solid rgba(255,255,255,.5);
   position: absolute;
   display: block;
   transition: all .5s;
-  width: 5rem;
+  width: 4rem;
   display: inline-block;
-  height: 5rem;
-  background-size: 80%;
+  height: 4rem;
+  background-size: 95%;
   background-position: center center;
   background-repeat: no-repeat;
   transition: all .5s;
-  left: -2.5rem;
-  top: 0;
+  left: -2.25rem;
+  top: -2.25;
   z-index: 150;
   opacity: 1;
+}
+
+.unicorn-explanation-content {
+  color: rgba(255,255,255,1);
+  font-size: 1.6rem;
+  line-height: 3rem;
+  width: 30%;
+  right: 52%;
+  position: absolute;
+  top: 8%;
+}
+
+.unicorn-explanation-content h1 {
+  font-size: 4.8rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  margin-top: 30%;
+}
+
+.unicorn-explanation-content p {
+  margin-bottom: 2.2rem;
 }
 
 .tool.hidden {
@@ -1416,7 +1437,7 @@ ul.menu {
 
 .timeline {
   width: 57.5%;
-  border-bottom: 1rem solid rgba(255,255,255,.5);
+  border-bottom: 0.8rem solid rgba(255,255,255,.5);
   position: absolute;
   height: 1rem;
   top: 8rem;
@@ -1596,7 +1617,8 @@ ul.menu {
   line-height: .8rem;
   color: rgba(0,0,0,.4);
   text-decoration: none;
-  font-weight: bold;
+  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 900;
 }
 
 .timeline-menu a:hover {
@@ -1648,6 +1670,8 @@ ul.menu {
   display: inline-block;
   float: left;
   padding: 1rem;
+  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 900;
 }
 
 .important-relationships h4 span {
@@ -1941,8 +1965,10 @@ ul.menu {
   clear: both;
   z-index: 6;
   width: 72rem;
-  position: absolute;
+  position: relative;
+  float: right;
   padding-bottom: 15rem;
+  height: 160rem;
   right: 5rem;
   top: 5rem;
 }

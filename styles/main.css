@@ -514,8 +514,42 @@ a:hover {
   background-image: url('../images/intro-bg.jpg');
 }
 
-.fp-viewing-story-first .transitional-backgrounds div.first, .fp-viewing-story-second .transitional-backgrounds div.second, .fp-viewing-story-third .transitional-backgrounds div.third, .fp-viewing-story-fourth .transitional-backgrounds div.fourth, .fp-viewing-story-fifth .transitional-backgrounds div.fifth, .fp-viewing-story-sixth div.sixth, .fp-viewing-intro-0 .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-tools .transitional-backgrounds div.tools, .fp-viewing-intro-1 .transitional-backgrounds div.unicorn-explanation {
+.transitional-backgrounds .anchor-tree {
+  background-image: url('../images/anchor-tree.jpg');
+}
+
+.anchor-tree .black-unicorn {
+  opacity: 0;
+}
+
+.black-unicorn .anchor-tree-hover {
+  background-image: url('../images/anchor-tree-hover.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  transition: all .25s;
+  opacity: 0;
+  width: 22%;
+  height: 22%;
+  left: 39.5%;
+  top: 35%;
+}
+
+.black-unicorn .anchor-tree-hover:hover {
+  width: 40%;
+  height: 40%;
+  left: 29.5%;
+  top: 30%;
   opacity: 1;
+  cursor: pointer;
+}
+
+.fp-viewing-story-first .transitional-backgrounds div.first, .fp-viewing-story-second .transitional-backgrounds div.second, .fp-viewing-story-third .transitional-backgrounds div.third, .fp-viewing-story-fourth .transitional-backgrounds div.fourth, .fp-viewing-story-fifth .transitional-backgrounds div.fifth, .fp-viewing-story-sixth div.sixth, .fp-viewing-intro-0 .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-tools .transitional-backgrounds div.tools, .fp-viewing-intro-1 .transitional-backgrounds div.unicorn-explanation, .anchor-tree.fp-viewing-intro-0 .transitional-backgrounds div.anchor-tree {
+  opacity: 1;
+}
+
+.anchor-tree.fp-viewing-intro-0 .transitional-backgrounds div.intro {
+  opacity: 0;
 }
 
 .fp-viewing-intro-0 .cloud-1, .fp-viewing-intro-0 .cloud-2 {
@@ -729,6 +763,15 @@ ul.menu {
   color: rgba(255,255,255,1);
   left: 45%;
   top: 32%;
+}
+
+.anchor-tree .intro-content {
+  width: 30%;
+  padding: 5%;
+  color: rgba(255,255,255,1);
+  left: 60%;
+  top: 24%;
+  background-color: rgba(0,0,0,.5);
 }
 
 .section.intro .wrapper.email-opened {

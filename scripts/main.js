@@ -3,9 +3,9 @@ $(document).ready(function(){
     anchors : ['intro', 'story', 'skills', 'tools'],
     controlArrows: false
   });
+  
   $(".filter-toggle").click(function(){
     var filter = $(this).attr("filter");
-    console.log(filter);
     $("." + filter).toggleClass("hidden");
     $(this).toggleClass("disabled");
   });
@@ -22,5 +22,8 @@ $(document).ready(function(){
       items.push("<li class='tool " + val.tool_name + " " + val.tool_type + "' style='left: " + x_axis_location + "%; top: " + y_axis_location + "%;'><span class='icon'></span><div class='info'> <a class='close-info'></a> <div class='heading clearfix'> <h2 class='left'> " + val.display_name + "<span>" + val.tool_short_description + "</span> </h2> <h2 class='right'> USED SINCE <span>" + Math.floor(val.used_since) + "</span> </h2> </div> <div class='content'>" + val.tool_long_description + "</div> </div> </li>");
     });
     $(".points").html(items);
+  });
+  $(".anchor-tree-hover").click(function(){
+    $("body").addClass("anchor-tree");
   });
 });

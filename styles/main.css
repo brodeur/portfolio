@@ -7,6 +7,14 @@ html, body {
 
 a[onclick], a:hover, body a:hover, a { cursor: pointer; }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -484,6 +492,11 @@ a[onclick], a:hover, body a:hover, a { cursor: pointer; }
   left: 0;
 }
 
+.fp-viewing-intro-1 a {
+  color: rgba(255,195,78,1);
+  font-weight: 800;
+}
+
 .transitional-backgrounds .skills {
   background-image: url('../images/skills-bg.jpg');
 }
@@ -546,17 +559,27 @@ a[onclick], a:hover, body a:hover, a { cursor: pointer; }
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#853170', endColorstr='#b66f74',GradientType=0 );
 }
 
-.transitional-backgrounds .fourth, .transitional-backgrounds .unicorn-explanation {
+.transitional-backgrounds .fourth {
   background: rgba(82,167,168,1);
-  background: -moz-linear-gradient(top, rgba(82,167,168,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(82,167,168,1)), color-stop(41%,rgba(77,161,173,1)), color-stop(54%,rgba(68,153,181,1)), color-stop(70%,rgba(57,146,191,1)), color-stop(100%,rgba(44,139,201,1)));
-  background: -webkit-linear-gradient(top, rgba(82,167,168,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
-  background: -o-linear-gradient(top, rgba(82,167,168,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
-  background: -ms-linear-gradient(top, rgba(82,167,168,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
-  background: linear-gradient(to bottom, rgba(82,167,168,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
+  background: -moz-linear-gradient(top, rgba(199,211,129,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(199,211,129,1)), color-stop(41%,rgba(77,161,173,1)), color-stop(54%,rgba(68,153,181,1)), color-stop(70%,rgba(57,146,191,1)), color-stop(100%,rgba(44,139,201,1)));
+  background: -webkit-linear-gradient(top, rgba(199,211,129,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
+  background: -o-linear-gradient(top, rgba(199,211,129,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
+  background: -ms-linear-gradient(top, rgba(199,211,129,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
+  background: linear-gradient(to bottom, rgba(199,211,129,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#853170', endColorstr='#b66f74',GradientType=0 );
 }
 
+.transitional-backgrounds .unicorn-explanation {
+  background: rgba(197,211,132,1);
+  background: -moz-linear-gradient(top, rgba(197,211,132,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(197,211,132,1)), color-stop(41%,rgba(77,161,173,1)), color-stop(54%,rgba(68,153,181,1)), color-stop(70%,rgba(57,146,191,1)), color-stop(100%,rgba(44,139,201,1)));
+  background: -webkit-linear-gradient(top, rgba(197,211,132,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
+  background: -o-linear-gradient(top, rgba(197,211,132,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
+  background: -ms-linear-gradient(top, rgba(197,211,132,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
+  background: linear-gradient(to bottom, rgba(197,211,132,1) 0%, rgba(77,161,173,1) 41%, rgba(68,153,181,1) 54%, rgba(57,146,191,1) 70%, rgba(44,139,201,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#853170', endColorstr='#b66f74',GradientType=0 );
+}
 
 .transitional-backgrounds .fifth {
   background: rgba(118,58,194,1);
@@ -701,10 +724,10 @@ ul.menu {
 .intro-content {
   position: absolute;
   z-index: 4;
-  width: 34%;
+  width: 40%;
   padding-left: 5%;
   color: rgba(255,255,255,1);
-  left: 50%;
+  left: 45%;
   top: 32%;
 }
 
@@ -2004,7 +2027,7 @@ ul.menu {
 }
 
 .email-header h2 {
-  font-size: 3rem;
+  font-size: 2.4rem;
   margin-bottom: .5rem;
   margin-top: .5rem;
 }

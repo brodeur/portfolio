@@ -1964,13 +1964,13 @@ ul.menu {
   display: block;
   clear: both;
   z-index: 6;
-  width: 72rem;
+  width: 40%;
   position: relative;
   float: right;
   padding-bottom: 15rem;
   height: 160rem;
-  right: 5rem;
-  top: 5rem;
+  right: 8%;
+  top: 5%;
 }
 
 .unicorn-email-thread.animated {
@@ -1983,7 +1983,6 @@ ul.menu {
 }
 
 .unicorn-email-thread .email {
-  width: 72rem;
   background-color: rgba(255,255,255,1);
   position: relative;
   z-index: 0;

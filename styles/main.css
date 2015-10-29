@@ -44,21 +44,22 @@ a:hover {
 
 .black-unicorn {
   background-image: url('../images/black-unicorn.png');
-  width: 21%;
-  height: 70%;
-  background-size: 100%;
+  width: 36rem;
+  height: 59rem;
+  background-size: contain;
   background-repeat: no-repeat;
-  top: 16%;
+  top: 0;
   position: absolute;
   z-index: 2;
   left: 20%;
+  top: 20%;
 }
 
 .shimmers {
   position: absolute;
-  width: 1rem;
-  height: 1rem;
-  right: 27%;
+  width: 3rem;
+  height: 3rem;
+  left: 70%;
   z-index: 0;
 }
 
@@ -68,7 +69,7 @@ a:hover {
 
 .shine-1 {
   top: -3rem;
-  left: -9rem;
+  left: -10rem;
   animation-name: sparkleSpin1;
   animation-duration: 11000ms;
   animation-iteration-count: infinite;
@@ -77,7 +78,7 @@ a:hover {
 }
 
 .shine-2 {
-  left: -0.5rem;
+  left: -1rem;
   width: 2rem;
   top: -0.7rem;
   animation-name: lightPulse;
@@ -98,8 +99,8 @@ a:hover {
 }
 
 .shine-4 {
-  left: -7rem;
-  top: -9rem;
+  left: -8.5rem;
+  top: -8.5rem;
   animation-name: sparkleSpin2;
   animation-duration: 50000ms;
   animation-iteration-count: infinite;
@@ -183,7 +184,7 @@ a:hover {
 }
 
 .sparkle.sparkle-8 {
-    animation-name: orbit4;
+  animation-name: orbit4;
   animation-duration: 34500ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -194,7 +195,7 @@ a:hover {
 }
 
 .sparkle.sparkle-9 {
-    animation-name: orbit6;
+  animation-name: orbit6;
   animation-duration: 45500ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -204,7 +205,7 @@ a:hover {
   transform-style: preserve-3d;
 }
 .sparkle.sparkle-10 {
-    animation-name: orbit3;
+  animation-name: orbit3;
   animation-duration: 24500ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -468,10 +469,61 @@ a:hover {
   }
 }
 
+@-webkit-keyframes fadeOutRight {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes fadeOutRight {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
 
 .sparkle {
   left: -15rem;
-  top: -10rem;
+  bottom: -10rem;
 }
 
 .section {
@@ -529,19 +581,27 @@ a:hover {
   position: absolute;
   transition: all .25s;
   opacity: 0;
-  width: 22%;
-  height: 22%;
-  left: 39.5%;
-  top: 35%;
+  width: 8rem;
+  height: 8rem;
+  top: 24.5rem;
+  left: -0.5rem;
 }
 
 .black-unicorn .anchor-tree-hover:hover {
-  width: 40%;
-  height: 40%;
-  left: 29.5%;
-  top: 30%;
+  width: 12rem;
+  height: 12rem;
   opacity: 1;
+  left: -2.5rem;
+  top: 22rem;
   cursor: pointer;
+}
+
+.anchor-tree-wrapper {
+  position: absolute;
+  width: 22%;
+  height: 45.5%;
+  left: 40%;
+  top: 0%;
 }
 
 .fp-viewing-story-first .transitional-backgrounds div.first, .fp-viewing-story-second .transitional-backgrounds div.second, .fp-viewing-story-third .transitional-backgrounds div.third, .fp-viewing-story-fourth .transitional-backgrounds div.fourth, .fp-viewing-story-fifth .transitional-backgrounds div.fifth, .fp-viewing-story-sixth div.sixth, .fp-viewing-intro-0 .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-tools .transitional-backgrounds div.tools, .fp-viewing-intro-1 .transitional-backgrounds div.unicorn-explanation, .anchor-tree.fp-viewing-intro-0 .transitional-backgrounds div.anchor-tree {
@@ -1135,6 +1195,10 @@ ul.menu {
   background-size: 120%;
 }
 
+.important-relationships li:hover {
+  z-index: 100;
+}
+
 .scatter-plot .icon:hover {
   cursor: pointer;
 }
@@ -1301,7 +1365,11 @@ ul.menu {
 
 .tool .info, .important-relationships li .relationship {
   display: none;
-  height: 1rem;
+}
+
+.tool .info {
+  height: 20rem;
+  top: 5rem;
 }
 
 .tool:hover, .important-relationships li:hover .relationship-photo {
@@ -1309,15 +1377,19 @@ ul.menu {
 }
 
 .tool:hover .info, .important-relationships li:hover .relationship {
-  height: auto;
   bottom: 0;
   display: block;
   animation-name: showTool;
   animation-duration: .5s;
-  -webkit-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.1);
-  box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.5);
   padding-bottom: 5rem;
+}
+
+.important-relationships li:hover .relationship {
+  bottom: 3rem;
+  z-index: 999;
 }
 
 
@@ -1560,7 +1632,7 @@ ul.menu {
 }
 
 .time-period .left, .time-period .right {
-  width: 33%;
+  width: 37.5%;
   padding-top: 15rem;
 }
 
@@ -1578,7 +1650,7 @@ ul.menu {
 }
 
 .time-period .right {
-  margin-right: 15%;
+  margin-right: 5%;
   float: right;
 }
 
@@ -1774,12 +1846,13 @@ ul.menu {
 }
 
 .important-relationships li {
-  position: absolute;
+  position: relative;
   display: inline-block;
   list-style: none;
   width: 3rem;
   height: 3rem;
   padding: .8rem .5rem;
+  z-index: 1;
 }
 
 .relationship-photo {
@@ -1788,8 +1861,10 @@ ul.menu {
   background-color: rgba(199,202,123,1);
   display: block;
   left: 0;
+  top: 0;
   background-size: 140%;
   position: relative;
+  z-index: 1000;
 }
 
 .relationship h2 {
@@ -1854,8 +1929,28 @@ ul.menu {
   padding: 2rem 2rem 4rem 2rem;
 }
 
-.relationship-photo.christopher-strawser {
+.christopher-strawser {
   background-image: url('../images/relationships/christopher-strawser.jpg');
+}
+
+.mom-and-dad {
+  background-image: url('../images/relationships/mom-and-dad.jpg');
+}
+
+.brothers-and-sisters {
+  background-image: url('../images/relationships/brothers-and-sisters.jpg');
+}
+
+.ian-orourke {
+  background-image: url('../images/relationships/ian-orourke.jpg');
+}
+
+.levi-benkert {
+  background-image: url('../images/relationships/levi-benkert.jpg');
+}
+
+.scott-walchek {
+  background-image: url('../images/relationships/scott-walchek.jpg');
 }
 
 .intro .fp-tableCell {
@@ -1941,8 +2036,8 @@ ul.menu {
   width: 4rem;
   height: 4rem;
   position: absolute;
-  top: -2rem;
-  right: 23%;
+  top: -1rem;
+  right: 25%;
   z-index: 100000;
 }
 
@@ -1951,7 +2046,7 @@ ul.menu {
   position: absolute;
   height: 50rem;
   left: -23rem;
-  top: -23.25rem;
+  top: -24.25rem;
   display: none;
 }
 
@@ -2119,48 +2214,6 @@ ul.menu {
   color: rgba(0,0,0,1);
 }
 
-
-@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-}
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
-}
-
 .unicorn-email-bg.block, .block, .close-email.block, .close-email-wrapper.block {
   display: block;
 }
@@ -2201,4 +2254,105 @@ ul.menu {
   top: 0;
   left: 0;
   z-index: 111111;
+}
+
+.right.slideshow {
+  top: 0;
+  position: relative;
+  height: 100%;
+}
+
+.work-samples ul {
+  list-style: none;
+}
+
+.work-samples {
+  height: 57%;
+  padding-top: 5%;
+}  
+.work-samples li {
+  width: 100%;
+  height: 57%;
+  animation-name: fadeOutRight;
+  animation-duration: .5s;
+  opacity: 0;
+}
+
+.work-samples li.selected {
+  display: block;
+  animation-name: fadeInRight;
+  opacity: 1;
+}
+
+.work-samples img {
+  max-height: 90%;
+  max-width: 90%;
+}
+
+.work-samples li {
+  position: absolute;
+  text-align: center;
+}
+
+.work-samples-menu {
+  list-style: none;
+  display: block;
+  width: 100%;
+  height: 2rem;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.work-samples-menu li {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  position: relative;
+  margin: 0 1rem;
+}
+
+.work-samples-menu li a {
+  background-color: rgba(255,255,255,0.5);
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: all .25s;
+}
+
+.work-samples-menu li a:hover {
+  background-color: rgba(255,255,255,1);
+  width: 3rem;
+  height: 3rem;
+  top: -0.5rem;
+  left: -0.5rem;
+  -webkit-box-shadow: 0px 10px 35px 0px rgba(0,0,0,.3);
+  -moz-box-shadow: 0px 10px 35px 0px rgba(0,0,0,.3);
+  box-shadow: 0px 10px 35px 0px rgba(0,0,0,.3);
+}
+
+.work-samples-menu a.selected, .work-samples-menu a.selected:hover {
+  width: 3.5rem;
+  height: 3.5rem;
+  top: -0.75rem;
+  left: -0.75rem;
+  background-color: rgba(255,255,255,1);
+  -webkit-box-shadow: 0px 10px 35px 0px rgba(0,0,0,.3);
+  -moz-box-shadow: 0px 10px 35px 0px rgba(0,0,0,.3);
+  box-shadow: 0px 10px 35px 0px rgba(0,0,0,.3);
+}
+
+.work-samples span {
+  display: block;
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  list-style: none;
+  padding-top: 10%;
+  text-align: left;
+  color: rgba(255,255,255,0.5);
 }

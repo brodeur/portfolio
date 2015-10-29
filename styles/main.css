@@ -1597,7 +1597,7 @@ ul.menu {
   font-weight: 900;
   font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
   margin-bottom: 2.5rem;
-  padding-top: 5rem;
+  padding-top: 20rem;
 }
 
 .time-period h2.large {
@@ -1633,7 +1633,6 @@ ul.menu {
 
 .time-period .left, .time-period .right {
   width: 37.5%;
-  padding-top: 15rem;
 }
 
 .time-period .left {
@@ -2299,7 +2298,7 @@ ul.menu {
   display: block;
   width: 100%;
   height: 2rem;
-  padding-top: 6rem;
+  padding-top: 20rem;
   padding-bottom: 3rem;
   text-align: center;
 }

@@ -579,7 +579,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: 100%;
   position: absolute;
-  transition: all .25s;
+  transition: all .5s ease;
   opacity: 0;
   width: 8rem;
   height: 8rem;
@@ -604,7 +604,27 @@ a:hover {
   top: 0%;
 }
 
-.fp-viewing-story-first .transitional-backgrounds div.first, .fp-viewing-story-second .transitional-backgrounds div.second, .fp-viewing-story-third .transitional-backgrounds div.third, .fp-viewing-story-fourth .transitional-backgrounds div.fourth, .fp-viewing-story-fifth .transitional-backgrounds div.fifth, .fp-viewing-story-sixth div.sixth, .fp-viewing-intro-0 .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-tools .transitional-backgrounds div.tools, .fp-viewing-intro-1 .transitional-backgrounds div.unicorn-explanation, .anchor-tree.fp-viewing-intro-0 .transitional-backgrounds div.anchor-tree {
+.slide.anchor-tree .explanation {
+  width: 90%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 1.5% 5% 1.5% 5%;
+  background-color: rgba(0,0,0,0.3);
+  color: rgba(255,255,255,1);
+}
+
+.slide.anchor-tree h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.slide.anchor-tree p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.fp-viewing-story-first .transitional-backgrounds div.first, .fp-viewing-story-second .transitional-backgrounds div.second, .fp-viewing-story-third .transitional-backgrounds div.third, .fp-viewing-story-fourth .transitional-backgrounds div.fourth, .fp-viewing-story-fifth .transitional-backgrounds div.fifth, .fp-viewing-story-sixth div.sixth, .fp-viewing-intro-0 .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-tools .transitional-backgrounds div.tools, .fp-viewing-intro-1 .transitional-backgrounds div.unicorn-explanation, .fp-viewing-intro-2 .transitional-backgrounds div.anchor-tree {
   opacity: 1;
 }
 

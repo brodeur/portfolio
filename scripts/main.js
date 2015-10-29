@@ -30,7 +30,7 @@ $(document).ready(function(){
   });
   
   $(".anchor-tree-hover").click(function(){
-    $("body").addClass("anchor-tree");
+
   });
 
   var samples = $(".work-samples");

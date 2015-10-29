@@ -2281,6 +2281,40 @@ ul.menu {
   height: 100%;
 }
 
+
+a.slideshow-link.selected, a.slideshow-link:hover {
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+}
+
+a.slideshow-linke:hover em, a.slideshow-link.selected em {
+  opacity: 1;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-left: .25rem;
+  margin-right: 0;
+  margin-bottom: -0.75rem;
+}
+
+a.slideshow-link {
+  color: rgba(255,255,255,.75);
+  font-weight: bold;
+  transition: all .25s;
+}
+
+.slideshow-link em {
+  opacity: .4;
+  height: 2rem;
+  width: 2rem;
+  background-image: url('../images/camera-icon.png');
+  display: inline-block;
+  background-size: 100%;
+  margin-bottom: -.4rem;
+  margin-left: .5rem;
+  margin-right: .25rem;
+  transition: all .25s;
+}
+
 .work-samples ul {
   list-style: none;
 }

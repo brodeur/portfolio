@@ -560,6 +560,7 @@ a:hover {
   position: absolute;
   transition: opacity .5s;
   background-size: cover;
+  background-position: center center;
 }
 
 .transitional-backgrounds .intro {
@@ -605,13 +606,15 @@ a:hover {
 }
 
 .slide.anchor-tree .explanation {
-  width: 90%;
+  width: 56%;
   position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 1.5% 5% 1.5% 5%;
+  left: 50%;
+  top: 0;
+  padding: 2%;
   background-color: rgba(0,0,0,0.3);
   color: rgba(255,255,255,1);
+  background-position: center;
+  margin-left: -30%;
 }
 
 .slide.anchor-tree h2 {
@@ -624,7 +627,7 @@ a:hover {
   line-height: 1.8rem;
 }
 
-.fp-viewing-story-first .transitional-backgrounds div.first, .fp-viewing-story-second .transitional-backgrounds div.second, .fp-viewing-story-third .transitional-backgrounds div.third, .fp-viewing-story-fourth .transitional-backgrounds div.fourth, .fp-viewing-story-fifth .transitional-backgrounds div.fifth, .fp-viewing-story-sixth div.sixth, .fp-viewing-intro-0 .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-tools .transitional-backgrounds div.tools, .fp-viewing-intro-1 .transitional-backgrounds div.unicorn-explanation, .fp-viewing-intro-2 .transitional-backgrounds div.anchor-tree {
+.fp-viewing-story-first .transitional-backgrounds div.first, .fp-viewing-story-second .transitional-backgrounds div.second, .fp-viewing-story-third .transitional-backgrounds div.third, .fp-viewing-story-fourth .transitional-backgrounds div.fourth, .fp-viewing-story-fifth .transitional-backgrounds div.fifth, .fp-viewing-story-sixth div.sixth, .fp-viewing-intro-0 .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-tools .transitional-backgrounds div.tools, .fp-viewing-intro-1 .transitional-backgrounds div.unicorn-explanation, .fp-viewing-intro-2 .transitional-backgrounds div.anchor-tree, .fp-viewing-story-seventh .transitional-backgrounds div.seventh {
   opacity: 1;
 }
 
@@ -707,13 +710,24 @@ a:hover {
 }
 
 .transitional-backgrounds .sixth {
-  background: ;
-  background: -moz-linear-gradient(top, rgba(132,49,112,1) 0%,rgba(131,61,144,1) 41%,rgba(138,71,144,1) 54%,rgba(147,78,139,1) 70%,rgba(182,111,116,1) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,), color-stop(41%,), color-stop(54%,), color-stop(70%,), color-stop(100%,));
+  background: rgba(132,49,112,1);
+  background: -moz-linear-gradient(top, rgba(255,32,69,1) 0%,rgba(131,61,144,1) 41%,rgba(138,71,144,1) 54%,rgba(147,78,139,1) 70%,rgba(182,111,116,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,32,69,1)), color-stop(41%,rgba(131,61,144,1)), color-stop(54%,rgba(138,71,144,1)), color-stop(70%,rgba(147,78,139,1)), color-stop(100%,rgba(182,111,116,1)));
   background: -webkit-linear-gradient(top, rgba(132,49,112,1) 0%,rgba(131,61,144,1) 41%,rgba(138,71,144,1) 54%,rgba(147,78,139,1) 70%,rgba(182,111,116,1) 100%);
   background: -o-linear-gradient(top, rgba(132,49,112,1) 0%,rgba(131,61,144,1) 41%,rgba(138,71,144,1) 54%,rgba(147,78,139,1) 70%,rgba(182,111,116,1) 100%);
   background: -ms-linear-gradient(top, rgba(132,49,112,1) 0%,rgba(131,61,144,1) 41%,rgba(138,71,144,1) 54%,rgba(147,78,139,1) 70%,rgba(182,111,116,1) 100%);
   background: linear-gradient(to bottom, rgba(132,49,112,1) 0%,rgba(131,61,144,1) 41%,rgba(138,71,144,1) 54%,rgba(147,78,139,1) 70%,rgba(182,111,116,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#853170', endColorstr='#b66f74',GradientType=0 );
+}
+
+.transitional-backgrounds .seventh {
+  background: rgba(255,31,70,1);
+  background: -moz-linear-gradient(top, rgba(255,31,70,1) 0%,rgba(255,75,105,1) 41%,rgba(255,75,102,1) 54%,rgba(255,64,84,1) 70%,rgba(255,55,59,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,31,70,1)), color-stop(41%,rgba(255,75,105,1)), color-stop(54%,), color-stop(70%,rgba(255,64,84,1) ), color-stop(100%,rgba(255,55,59,1)));
+  background: -webkit-linear-gradient(top, rgba(255,31,70,1) 0%,rgba(255,75,105,1) 41%,rgba(255,75,102,1) 54%,rgba(255,64,84,1) 70%,rgba(255,55,59,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,31,70,1) 0%,rgba(255,75,105,1) 41%,rgba(255,75,102,1) 54%,rgba(255,64,84,1) 70%,rgba(255,55,59,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,31,70,1) 0%,rgba(255,75,105,1) 41%,rgba(255,75,102,1) 54%,rgba(255,64,84,1) 70%,rgba(255,55,59,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,31,70,1) 0%,rgba(255,75,105,1) 41%,rgba(255,75,102,1) 54%,rgba(255,64,84,1) 70%,rgba(255,55,59,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#853170', endColorstr='#b66f74',GradientType=0 );
 }
 
@@ -1728,11 +1742,11 @@ ul.menu {
 }
 
 .timeline-menu a.first {
-  background-color: rgba(252,235,155,1);
+  background-color: rgba(185,198,40,1);
 }
 
 .timeline-menu a.second {
-  background-color: rgba(155,252,192,1);
+  background-color: rgba(73,206,135,1);
 }
 
 .timeline-menu a.third {
@@ -1749,7 +1763,10 @@ ul.menu {
 
 .timeline-menu a.sixth {
   background-color: rgba(255,129,129,1);
-  
+}
+
+.timeline-menu a.seventh {
+  background-color: rgba(255,171,3,1);
 }
 
 
@@ -1758,27 +1775,59 @@ ul.menu {
 }
 
 .timeline-menu li.second {
-  left: 20%;
+  left: 16.66%;
 }
 
 .timeline-menu li.third {
-  left: 40%;
+  left: 33.22%;
 }
 
 .timeline-menu li.fourth {
-  right: 40%;
+  right: 50%;
 }
 
 .timeline-menu li.fifth {
-  right: 20%;
+  right: 33.22%;
 }
 
 .timeline-menu li.sixth {
+  right: 16.66%;
+}
+
+.timeline-menu li.seventh {
   right: 0%;
 }
 
+.fp-viewing-story-first a {
+  color: rgba(185,198,40,1);
+}
 
-.fp-viewing-story-first .timeline-menu a.first, .fp-viewing-story-second .timeline-menu a.second, .fp-viewing-story-third .timeline-menu a.third, .fp-viewing-story-fourth .timeline-menu a.fourth, .fp-viewing-story-fifth .timeline-menu a.fifth, .fp-viewing-story-sixth .timeline-menu a.sixth {
+.fp-viewing-story-second a {
+  color: rgba(73,206,135,1);
+}
+
+.fp-viewing-story-third a {
+  color: rgba(166,197,255,1);
+}
+
+.fp-viewing-story-fourth a {
+  color: rgba(243,205,254,1);
+}
+
+.fp-viewing-story-fifth a {
+  color: rgba(255,129,185,1);
+}
+
+.fp-viewing-story-sixth a {
+  color: rgba(255,129,129,1);
+}
+
+.fp-viewing-story-seventh a {
+  color: rgba(255,171,3,1);
+}
+
+
+.fp-viewing-story-first .timeline-menu a.first, .fp-viewing-story-second .timeline-menu a.second, .fp-viewing-story-third .timeline-menu a.third, .fp-viewing-story-fourth .timeline-menu a.fourth, .fp-viewing-story-fifth .timeline-menu a.fifth, .fp-viewing-story-sixth .timeline-menu a.sixth, .fp-viewing-story-seventh .timeline-menu a.seventh {
   border: 1rem solid rgba(255,255,255,1);
   width: 8rem;
   height: 8rem;
@@ -1805,7 +1854,6 @@ ul.menu {
   color: rgba(0,0,0,.4);
   text-decoration: none;
   font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 900;
 }
 
 .timeline-menu a:hover {
@@ -1832,10 +1880,10 @@ ul.menu {
   color: rgba(0,0,0,0.3);
 }
 
-.fp-viewing-story-first .timeline-menu a.first span, .fp-viewing-story-second .timeline-menu a.second span,.fp-viewing-story-third .timeline-menu a.third span,.fp-viewing-story-fourth .timeline-menu a.fourth span, .fp-viewing-story-fifth .timeline-menu a.fifth span,.fp-viewing-story-sixth .timeline-menu a.sixth span {
+.fp-viewing-story-first .timeline-menu a.first span, .fp-viewing-story-second .timeline-menu a.second span,.fp-viewing-story-third .timeline-menu a.third span,.fp-viewing-story-fourth .timeline-menu a.fourth span, .fp-viewing-story-fifth .timeline-menu a.fifth span,.fp-viewing-story-sixth .timeline-menu a.sixth span, .fp-viewing-story-seventh a.seventh span {
   top: 1.8rem;
   line-height: 1.4rem;
-  color: rgba(0,0,0,0.6);
+  color: rgba(255,255,255,1);
 }
 
 .important-relationships {
@@ -1845,8 +1893,9 @@ ul.menu {
   text-align: center;
   bottom: 0;
   left: 15%;
-  width: 37.5%;
+  width: 35.5%;
   transition: all .5s;
+  border-left: 2rem solid rgba(255,255,255,.5);
 }
 
 .important-relationships ul {
@@ -1857,30 +1906,29 @@ ul.menu {
 .important-relationships h4 {
   font-size: 2.4rem;
   font-weight: bold;
-  color: rgba(0,0,0,0.6);
+  color: rgba(255,255,255,0.9);
   text-align: left;
   display: inline-block;
   float: left;
   padding: 1rem;
   font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 900;
 }
 
 .important-relationships h4 span {
   font-size: 1.4rem;
   font-weight: 100;
   font-style: italic;
-  color: rgba(0,0,0,0.4);
+  color: rgba(255,255,255,0.7);
   display: block;
   padding-top: 0.3rem;
 }
 
 .fp-viewing-story-first .important-relationships {
-  background-color: rgba(252,235,155,1);
+  background-color: rgba(204,198,40,1);
 }
 
 .fp-viewing-story-second .important-relationships {
-  background-color: rgba(155,252,192,1);
+  background-color: rgba(73,206,135,1);
 }
 
 .fp-viewing-story-third .important-relationships {
@@ -1897,6 +1945,10 @@ ul.menu {
 
 .fp-viewing-story-sixth .important-relationships {
   background-color: rgba(255,129,129,1);
+}
+
+.fp-viewing-story-seventh .important-relationships {
+  background-color: rgba(255,171,3,1);
 }
 
 .important-relationships li {

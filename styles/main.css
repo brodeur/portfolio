@@ -1815,8 +1815,13 @@ ul.menu {
   text-align: center;
   bottom: 0;
   left: 15%;
-  width: 30%;
+  width: 37.5%;
   transition: all .5s;
+}
+
+.important-relationships ul {
+  position: relative;
+  top: .4rem;
 }
 
 .important-relationships h4 {
@@ -2287,13 +2292,22 @@ a.slideshow-link.selected, a.slideshow-link:hover {
   text-decoration: none;
 }
 
-a.slideshow-linke:hover em, a.slideshow-link.selected em {
+a.slideshow-link.selected:hover em, a.slideshow-link.selected em {
   opacity: 1;
   height: 2.5rem;
   width: 2.5rem;
+  margin-left: 0rem;
+  margin-right: -0.25;
+  margin-bottom: -0.65rem;
+}
+
+a.slideshow-link:hover em {
+  opacity: .75;
+  height: 2.25rem;
+  width: 2.25rem;
   margin-left: .25rem;
-  margin-right: 0;
-  margin-bottom: -0.75rem;
+  margin-right: -0.25;
+  margin-bottom: -0.65rem;
 }
 
 a.slideshow-link {
@@ -2309,9 +2323,9 @@ a.slideshow-link {
   background-image: url('../images/camera-icon.png');
   display: inline-block;
   background-size: 100%;
-  margin-bottom: -.4rem;
+  margin-bottom: -.45rem;
   margin-left: .5rem;
-  margin-right: .25rem;
+  margin-right: 0;
   transition: all .25s;
 }
 

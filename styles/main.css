@@ -631,6 +631,10 @@ a:hover {
   opacity: 1;
 }
 
+.fp-viewing-story-first .slide.first .slideshow, .fp-viewing-story-second .slide.second .slideshow, .fp-viewing-story-third .slide.third .slideshow, .fp-viewing-story-fourth .slide.fourth .slideshow, .fp-viewing-story-fifth .slide.fifth .slideshow, .fp-viewing-story-sixth .slide.sixth .slideshow, .fp-viewing-story-seventh .slide.seventh .slideshow {
+  display: block;
+}
+
 .anchor-tree.fp-viewing-intro-0 .transitional-backgrounds div.intro {
   opacity: 0;
 }
@@ -1841,7 +1845,7 @@ ul.menu {
 .timeline-menu a {
   font-size: 1.1rem;
   border-radius: 5rem;
-  border: .5rem solid rgba(255,255,255,.5);
+  border: .5rem solid rgba(0,0,0,.15);
   display: block;
   position: absolute;
   transition: all .25s ease;
@@ -2366,6 +2370,7 @@ ul.menu {
   top: 0;
   position: relative;
   height: 100%;
+  display: none;
 }
 
 

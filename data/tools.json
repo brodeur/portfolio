@@ -6,7 +6,7 @@
     "mastery_level" : 96,
     "display_name" : "Photoshop",
     "tool_short_description" : "Pixel manipulation program",
-    "tool_long_description" : "<p>I've been using Wordpress for years, since long before it was the publishing powerhouse it is today. Because of my long history with the platform, I am familiar with most of the parts that make Wordpress work. Furthermore, over the years I've been a part of teams and projects that pushed Wordpress to it's limits.</p> <p>Key Wordpress skills</p> <ul> <li>Wordpress theme design</li> <li>Wordpress e-commerce</li> <li>Administration and management of large-scale blog networks</li> </ul> <p>... and a whole lot more.</p>"
+    "tool_long_description" : "<p>I've been using Photoshop since 3.4. At this point, it is like a third arm to me and has become a critical part of most of my creative endeavors. Professionally, I use it at many stages of product development, but primarily for high fidelity mockups or renders.</p><p>But it's not just Photoshop: I've been using Photoshop in tandem with Illustrator for much of my career.</p><p>If there is something that can be done with Photoshop, I can do it well and fast: From photo manipulation and digital painting to production-ready, pixel-perfect screen renders, Photoshop is my favorite swiss army knife.</p>"
   }, {
     "tool_name" : "ab-html",
     "tool_type" : "platform",
@@ -14,7 +14,7 @@
     "mastery_level" : 91,
     "display_name" : "HTML",
     "tool_short_description" : "The skeleton of the web", 
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I didn't think of HTML as a technology until recently. It's always just sort of been there, underpinning everything.</p><p>Early in my career, when I explained what I did I was careful to explain that HTML was 'not a programming language'. Now, I'm not so sure. With all of the cool stuff being added to the HTML5 spec, the line between where scripting starts and the presentation layer begins is getting blurred. I'm extremely fluent in HTML, for the last couple incarnations at least. Prior to the 3.0 spec, I wasn't really a student of the internet at all."
   }, {
     "tool_name" : "bbedit",
     "tool_type" : "development-tool",
@@ -22,7 +22,7 @@
     "mastery_level" : 80,
     "display_name" : "BBEdit",
     "tool_short_description" : "Markup editor", 
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I remember when I first used BBEdit: It felt like using big kid's tools for the first time. It was also one of the first pieces of software I paid the full retail price for. I used BBEdit after the training wheels that Dreamweaver provided proved too cumbersome. It was my primary way of editing code for a long time, until Panic Software released Coda.</p>"
   }, {
     "tool_name" : "illustrator",
     "tool_type" : "design-tool",
@@ -30,7 +30,7 @@
     "mastery_level" : 92,
     "display_name" : "Adobe Illustrator",
     "tool_short_description" : "Vector illustration tool",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>Illustrator is one of my favorite tools and, with Photoshop, allow me to produce my best work.</p><p>I use Illustrator on it's own for it's tight control of typography and shapes -- laying out things like brochures or print advertisements -- but also for it's deep integration with Photoshop. Passing objects back and forth and manipulating them gives me power to create things that neither tool can produce alone.</p><p>I'm hesitant to call myself an expert in Illustrator, but only because I am that much faster and competent with Photoshop.</p>"
   }, {
     "tool_name" : "ab-css",
     "tool_type" : "platform",
@@ -38,7 +38,7 @@
     "mastery_level" : 90,
     "display_name" : "CSS",
     "tool_short_description" : "Making the web look good",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>CSS is magic. When I first began working on the internet, CSS wasn't really a thing. As it became more important, I was slow to adopt: Why couldn't we just use nested tables forever? As I became fluent, I saw the power of the technology.</p><p>Now, bending CSS to do hard things (like make a unicorn horn shine!) is something I relish. I'm really excited about the future of CSS and love using libraries like SASS and LESS that make organizing easier.</p><p>Developing the CSS for this site was actually a bit of a challenge: How do I show my CSS? I was initially going to use a library and minify/compile everything, but the output can be ugly. So I decided to simply not use any libraries, so that my CSS can speak for itself.</p>"
   }, {
     "tool_name" : "ab-js",
     "tool_type" : "platform",
@@ -46,7 +46,7 @@
     "mastery_level" : 88,
     "display_name" : "Javascript",
     "tool_short_description" : "The web's scripting language",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>Oh, Javascript, how I love thee and thine. Javascript is really the only language I feel like I am actually fluent in. When I first started using Javascript, it wasn't considered much of a language at all: It was used for discrete tasks and even then cautiously.</p><p>I think because of this, I never saw myself as a programmer. Now that javascript is more mature and is supported by hundreds of libraries and platforms, I feel more confident saying that I am a programmer, but clarify '<em>Not</em> the CS kind'. :)</p><p>I'm familiar with all of the latest stuff and am fluent in many of the industry standards. I've released code to production using everything from <a href='https://en.wikipedia.org/wiki/Script.aculo.us'>Scriptaculo.us</a> of yore to <a href='http://emberjs.com/'>Ember</a> and <a href='https://angularjs.org/'>Angular</a>, two modern JS frameworks for building applications.</p>"
   }, {
     "tool_name" : "flash",
     "tool_type" : "design-tool",
@@ -54,7 +54,7 @@
     "mastery_level" : 72,
     "display_name" : "Macromedia/Adobe Flash",
     "tool_short_description" : "Early rich media on the web",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I invested a lot of time getting good at Flash. I look at this chart now and think: Will I be building with any of this stuff in 10 years?</p><p>Probably not.</p><p>But I know that if I'm able to continue learning from each tool as I did with flash, I can take that knowledge with me into the future.</p><p>Flash provided an easy way to learn the basics of scripting and keyframe animation -- both skills that I now utilize all of the time.</p><p>I will admit here and now though, that I, on more than one occaision, said things like: HTML and CSS will <em>never</em> replace flash.</p>"
   }, {
     "tool_name" : "wordpress",
     "tool_type" : "platform",
@@ -62,7 +62,7 @@
     "mastery_level" : 82,
     "display_name" : "Wordpress",
     "tool_short_description" : "The internet's content management platform",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p><a href='https://wordpress.com/'>Wordpress</a> is a wonder. 74,652,825 websites all running the same software. Activists, politicians, police officers, prisoners, rich, poor...</p><p>And it's well made and easy to use!</p><p>I've been working with Wordpress since the beginning. It's hard to estimate how many sites I've launched using Wordpress as part of the buildout, but it's a lot! 30? 40? I'm fluent in theme development, running blog platforms (e.g. since it was called WordpressMU and BuddyPress), building content platforms serving millions of visitors...</p><p>I've used other platforms but I think that, for most people solving most problems, Wordpress will be a good option and likely the best. There are upstarts like Squarespace which I think could provide a serious answer to Wordpress' model, but nobody has the reach or broad base of users who know how to publish with it.</p>"
   }, {
     "tool_name" : "ab-jquery",
     "tool_type" : "platform",
@@ -70,7 +70,7 @@
     "mastery_level" : 91,
     "display_name" : "jQuery",
     "tool_short_description" : "What most people refer to when they say 'javascript'",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>jQuery is god.</p><p>I used to sneer at libraries like jQuery. They bloat everything! Why download a whole library when you're only using 10% of? Now, as you can see, my tune is a little bit different.</p><p>jQuery is incredible for a number of reasons. It's shorthand for complicated tasks make everyone's job easier. It's legibility means that even novices can tinker with it. It's extensibility means everything you build with it can include any number of millions of pieces of code written before.</p><p>Never mind that it means that everyone's code looks the same now, so it's easier to understand how people solve problem which makes building things so much easier. I am indebted to you, jQuery!</p><p>Also, shout out to <a href='https://www.linkedin.com/in/stevenewcomb'>Steve Newcomb</a>, founder of the company I helped build, <a href='http://techcrunch.com/2009/02/11/virgance-harnessing-the-community-to-save-the-world-business-plan-included/'>Virgance</a>, who is now on the board over at the jQuery foundation (and the Node.js Foundation)!"
   }, {
     "tool_name" : "indesign",
     "tool_type" : "design-tool",
@@ -78,7 +78,7 @@
     "mastery_level" : 66,
     "display_name" : "Adobe Pagemaker/Indesign",
     "tool_short_description" : "Desktop publishing software",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>There was a stretch of time where I was using Pagemaker and then later InDesign pretty frequently. I had a series of clients for whom the primary tasks were laying out large documents, setting the type of and embelishing with designs.</p><p>Now, I don't do much publishing design any more- and haven't opened InDesign in likely a year. But being fluent in Desktop Publishing has proven to be really beneficial during the rest of my design career, which has transitioned to design focusing more on interfaces and interactions.</p><p>The important things about publishing design are still true in the digital age: Readability, clarity, white space and pacing are all critical to helping people to understand what is being communicated.</p><p>I still love the work involved in making something long and complicated feel easy and clear, and hope that more opportunities for me to work on this sort of thing come up in the future."
   }, {
     "tool_name" : "ab-php",
     "tool_type" : "platform",
@@ -86,7 +86,7 @@
     "mastery_level" : 52,
     "display_name" : "PHP",
     "tool_short_description" : "Gateway programming language",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>My earliest attempts at coding were feeble. PHP was the first language that became strong enough in to feel that I was actually becoming a 'programmer'.</p><p>I still don't quite feel like a programmer most of the time: I've worked alongside some really brilliant people educated at the best schools in the country and know that qualitatively -- even though we're not solving the same problems and in many ways our work isn't comparable -- there is a level of acumen that I simply will never achieve without going and getting a CS degree from Stanford myself.</p><p>That being said, I've used PHP since I was a teenager. Of all of the backend languages I am conversant in, I am by far most fluent in PHP.</p><p>On most teams, though, my time is better spent on front end challenges, as that is where I have the most strength, speed and experience.</p>"
   },
   {
     "tool_name" : "py",
@@ -95,7 +95,7 @@
     "mastery_level" : 38,
     "display_name" : "Python",
     "tool_short_description" : "Scripting language", 
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>Python was one of the first languages I ever tried to learn. Over the years I learned slowly, not really seeing the utility of Python on the internet.</p><p>In the mid-2000's I made it through all of the exercises in <em><a href='http://learnpythonthehardway.org/'>Learn Python the Hard Way</a></em> but didn't have a project to sink the new knowledge into</p><p>Recently, I released my first app to production that was built with Python and Flask. The application is a reporting tool for an index fund and was really fun to build and really showed how powerful and simple Python can be.</p>"
   }, {
     "tool_name" : "linux",
     "tool_type" : "platform",
@@ -103,7 +103,7 @@
     "mastery_level" : 32,
     "display_name" : "Linux",
     "tool_short_description" : "The internet's operating system", 
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>Linux is like a magical mystery machine to me. I can set up many different types of servers on my own and do many administrative tasks. I'm confident in the terminal.</p><p>But I know that even after using Linux for 15-20 years, that I have only scratched the surface.</p><p>I mainly included this have the chance to share that if you work with me, you probably won't have to hold my hand too tightly through setting up my own work environment.</p>"
   }, {
     "tool_name" : "dreamweaver",
     "tool_type" : "development-tool",
@@ -111,7 +111,7 @@
     "mastery_level" : 72,
     "display_name" : "Macromedia/Adobe Dreamweaver",
     "tool_short_description" : "WYSIWYG HTML Editor",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>This tool helped me to learn HTML and CSS. For a long time, I was embarassed to tell fellow developers that I had used a WYSIWYG editor for so long. Now I understand the critical role it played in helping me to understand how things on web pages worked.</p><p>As I became more confident as a front end developer, I eventuall switched from Dreamweaver to BBEdit.</p><p>I used BBEdit for years until Panic Software released Coda, which I still use today.</p><p>Why not vim/emacs/nano? Why not Sublime?</p><p>I spent some time trying out Sublime and found Coda to be a little bit better for me. As for programming in the terminal, I think that the type of development I do is actually more suited to a barebones IDE than the terminal.</p>"
   }, {
     "tool_name" : "joomla",
     "tool_type" : "platform",
@@ -119,7 +119,7 @@
     "mastery_level" : 55,
     "display_name" : "Joomla",
     "tool_short_description" : "Also-ran content management solution", 
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>It's been several years since I last used Joomla, but there was a period of time when several medium-sized clients requested Joomla because they had prior familiarity with the platform.</p><p>At that time, developing for Joomla was pretty challenging. In fact, those projects were what convinced me to be a stronger advocate for what I felt was better software, Wordpress, if people are not decided about what CMS to use.</p><p>But I've been paying attention to their development efforts over the years and have recently been looking at their theme development documentation as research for one of my side-projects: They've grown a lot and I'm actually interested to try them out again.</p>"
   },
   {
     "tool_name" : "svn",
@@ -128,7 +128,7 @@
     "mastery_level" : 63,
     "display_name" : "Subversion (svn)",
     "tool_short_description" : "Version control system",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>Subversion was my introduction to version control systems. I still remember being blown away by how obvious and important it was to manage code, but had never even wondered if such a thing like this existed prior.</p><p>I used SVN for a thousand or so commits until we switched Virgance over to Github. I haven't looked back.</p>"
   }, {
     "tool_name" : "vim",
     "tool_type" : "development-tool",
@@ -136,7 +136,7 @@
     "mastery_level" : 60,
     "display_name" : "Vim",
     "tool_short_description" : "Coding from the terminal",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I'm a vim person when it comes to editing from the terminal. Please don't hold it against me.</p><p>My level of fluency is pretty high, but I would prefer to use a barebones IDE like Coda or Sublime. No cheat-sheets necessary!</p>"
   }, {
     "tool_name" : "fireworks",
     "tool_type" : "design-tool",
@@ -144,7 +144,7 @@
     "mastery_level" : 44,
     "display_name" : "Macromedia/Adobe Fireworks",
     "tool_short_description" : "Digital image manipulation",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>There was a period of a couple years where I was convinced that Fireworks that was the future. I had tried xRes. When Fireworks came out, it seemed like the application I always wanted someone to build. But I didn't keep using it, as they ended up pouring a lot of the functionality that made Fireworks special into Photoshop.</p><p>Now there is another serious contender in this space that I have been learning called Sketch. Sketch shares many of the qualities that made Fireworks appealing from a web development standpoint, with the addition of further tools to aid in getting assets ready for shipping.</p>"
   }, {
     "tool_name" : "mysql",
     "tool_type" : "platform",
@@ -152,7 +152,7 @@
     "mastery_level" : 26,
     "display_name" : "MySQL",
     "tool_short_description" : "My First Database",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I'm not a database developer, but I don't need anyone to hold my hand when it comes to MySQL.</p><p>I've been working with MySQL since the beginning of my career -- it's always been there in the background, this third brain keeping everything in order. I can set up, manage, manipulate and navigate MySQL databases, but the planning and development should be done by someone else.</p>"
   },
   {
     "tool_name" : "apache",
@@ -161,7 +161,7 @@
     "mastery_level" : 22,
     "display_name" : "Apache",
     "tool_short_description" : "Server software", 
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I've been running Apache locally since I was 13 or 14. I still don't know much about how it actually works, mind you, but it's such good software that it doesn't seem to matter too much.</p><p>Even though I don't know much about how it actually works, I've been using it long enough that things like provisioning a new server or setting up a new development environment take almost no time at all.</p>"
   }, {
     "tool_name" : "scriptaculous",
     "tool_type" : "platform",
@@ -169,7 +169,7 @@
     "mastery_level" : 52,
     "display_name" : "Script.aculo.us",
     "tool_short_description" : "It's about the user interface, baby!",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>There was a not-very-contentious battle early on between Scriptaculous, jQuery and a couple of other also-ran general-purpose javascript libraries.</p><p>Scriptaculous lost that battle in many senses, but for me it was my introduction to several programming paradigms that I hadn't encountered before and made learning jQuery a breeze when I finally switched over. On it's own, it gave someone who at that point was fairly inexperienced a level of power and understanding of Javascript that would have taken me years to learn otherwise. Thank you so much for the incredible software you built, Mr. Fuchs, and for your contribution to the technological foundations of the internet.</p>"
   }, {
     "tool_name" : "coda",
     "tool_type" : "development-tool",
@@ -177,7 +177,7 @@
     "mastery_level" : 88,
     "display_name" : "Coda",
     "tool_short_description" : "Semi-integrated development environment",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>Coda is my daily workhorse when it comes to development work. I love that it is minimal and solid, but with a few frills that make my front end development workflow a little bit easier than I've found with other barebone IDEs.</p>"
   }, {
     "tool_name" : "smarty",
     "tool_type" : "platform",
@@ -185,7 +185,7 @@
     "mastery_level" : 78,
     "display_name" : "Smarty Templating Engine",
     "tool_short_description" : "Templating for PHP",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>Smarty was my introduction to a real templating engine. Before using Smarty, I of course was familiar with templating -- I'd developed themes and templates for a variety of platforms. But Smarty helped me to think about templates better and to better understand what templates were for. Plus, it was built directly on top of PHP, rather than as a subset of some content management system. So it follows good conventions and teaches good organisational practices.</p><p>Now, picking up new templating systems is a breeze: My fluency in Smarty has carried over to pretty much every other templating engine I've used since.</p>"
   }, {
     "tool_name" : "github",
     "tool_type" : "development-tool",
@@ -193,7 +193,7 @@
     "mastery_level" : 68,
     "display_name" : "GitHub",
     "tool_short_description" : "Hosted version control", 
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I've been using GitHub for quite some time now. As a designer and front end developer, it's always been difficult to figure out how to participate in the open source community on GitHub.</p><p>I've mostly used my account professionally, but have <a href='https://github.com/brodeur/familiar'>released</a> an early prototype of a <a href='http://familiar.pw/'>javascript library I built recently</a>.</p>"
   }, {
     "tool_name" : "git",
     "tool_type" : "development-tool",
@@ -201,7 +201,7 @@
     "mastery_level" : 63,
     "display_name" : "Git",
     "tool_short_description" : "Version control system", 
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I am incredibly thankful for Git. It has saved me and everyone in the world a million times over. All hail git!</p><p>It's incredible. Take git-bisect: There's never been a faster way to discover how embarassingly long a bug your coworker introduced has been in the codebase.</p><p>I'm pretty fluent with Git as I have made many mistakes. Making mistakes is the surest way to learn Git quickly. That is, after you adopt the maddeningly confusing mental model and understand how it works a little bit.</p><p>Of course, once you understand how it works you realize that we need Git everywhere -- in our legal system, in our banking system, policy decisions... and pretty much everything could be improved by this type over version control system.</p>"
   }, {
     "tool_name" : "blender",
     "tool_type" : "design-tool",
@@ -209,7 +209,7 @@
     "mastery_level" : 38,
     "display_name" : "Blender",
     "tool_short_description" : "3D modelling for the masses",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I've used Blender for quite some time. I'm not a modeler by any means, but use it to lay out scenes for digital composition, create simple shapes, badges and other easy models. I've always intended to dedicate some time to developing my 3D toolbelt, and am always happy when a job or project affords me a chance to sculpt in this space.</p>"
   }, {
     "tool_name" : "reviewboard",
     "tool_type" : "development-tool",
@@ -217,7 +217,7 @@
     "mastery_level" : 85,
     "display_name" : "Review Board",
     "tool_short_description" : "Hosted code reviews",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>Review Board is a code review tool. It was my first experience with structured code reviews and, as soon as we adopted it as a team, the quality of our code improved tremendously.</p><p>It is always my preference to have my code reviewed and I always make sure, even if a client doesn't have someone on staff, that another set of eyeballs checks my work before pushing it out into the world.</p><p>Even when the review doesn't discover errors, the questions it produces often produce insights that are not possible in any other context.</p>"
   }, {
     "tool_name" : "balsamiq",
     "tool_type" : "design-tool",
@@ -225,7 +225,7 @@
     "mastery_level" : 87,
     "display_name" : "Balsamiq",
     "tool_short_description" : "Wireframing tool",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>Balsamiq is great. I still use it or tools like it if other people prefer, but now I typically end up wireframing on a pad of paper and then in Illustrator.</p><p>Now, the diversity of services available doing this simple task is pretty daunting. I've tried a few others and there are some really awesome offerings, but I think I'm now just faster with a pen and Illustrator than these tools.</p>"
   }, {
     "tool_name" : "ab-svg",
     "tool_type" : "platform",
@@ -233,7 +233,7 @@
     "mastery_level" : 48,
     "display_name" : "SVG",
     "tool_short_description" : "Vector graphics for the web",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>SVG. The holy grail! Though I'm still no expert.</p><p>I started using SVGs a few years ago when it began to be practical to do so. The number of use cases is increasing as other technologies like HTML and CSS also grow up.</p><p>So I'm not an expert, but I can make them, manipulate them and animate them <em>just like one</em>.</p>"
   }, {
     "tool_name" : "ab-ember",
     "tool_type" : "platform",
@@ -241,7 +241,7 @@
     "mastery_level" : 42,
     "display_name" : "Ember.js",
     "tool_short_description" : "Javascript application framework",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I'm really blown away by Ember. It reminds me of when I first saw Ruby on Rails: Wow! How does that just work?</p><p>I used Ember while working at PURE Energies. We built an LED lease calculator with it, and it made everything really easy.</p><p>At first I was intimidated as I hadn't encountered concepts like models or controllers before. But once I understood a bit about how it worked and was able to dig into the templating, everything just started to magically work. I plan on using Ember for an upcoming project I have slated for the Spring of 2016, and can't wait to get my hands dirty again!</p>"
   }, {
     "tool_name" : "sublimetext",
     "tool_type" : "development-tool",
@@ -249,7 +249,7 @@
     "mastery_level" : 48,
     "display_name" : "SublimeText",
     "tool_short_description" :  "Super-barebones IDE",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I gave Sublime a chance and was really impressed. I successfully used it for a whole project, but as that project ended the balance of my work shifted away from straight development to doing a lot of asset implementation and it seemed Sublime was a little bit slower for a few types of tasks. I eventually went back to using Coda, which is now my go-to barebones IDE.</p>"
   }, {
     "tool_name" : "pixelapse",
     "tool_type" : "design-tool",
@@ -257,7 +257,7 @@
     "mastery_level" : 38,
     "display_name" : "Pixelapse",
     "tool_short_description" : "Versiopn control for designers",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>'Wouldn't it be great if there was github for designers?' -Every designer who understands github</p><p><a href='https://www.linkedin.com/profile/view?id=ADEAAAeEDYYBR6qHn547dlpr3WAYwhZYKeKDcmY'>Norissa Kyin</a>, a fellow designer at PURE Energies and <a href='https://www.linkedin.com/in/ivanstroganov'>Ivan Stroganov</a>, a front end developer at same, convinced me to start using it. Ivan and Norissa had a lot of success using it, but at that time I wasn't really working collaboratively and never ended up using it heavily. That being said, it's a great way to manage design revisions and work collaboratively or remotely. I've tested out using it with clients with some success recently and am exploring it's utility further.</p>"
   }, {
     "tool_name" : "objective-c",
     "tool_type" : "platform",
@@ -265,7 +265,7 @@
     "mastery_level" : 32,
     "display_name" : "Objective C",
     "tool_short_description" : "Apple's one-time lingua franca",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I've done some light programming in Objective C, mostly working on mobile side projects that never really matured.</p><p>More and more the way I've interfaced with devices is through the browser rather than with native apps. With libraries out today, it can be hard to tell the difference.</p><p>I would say I have a fairly low fluency in Objective-C, aside from fundamentals I acquired elsewhere. But I know enough to make apps look and feel good, which is my primary area of interest and expertise.</p>"
   }, {
     "tool_name" : "xcode",
     "tool_type" : "development-tool",
@@ -273,7 +273,7 @@
     "mastery_level" : 28,
     "display_name" : "XCode",
     "tool_short_description" : "Apple's IDE",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>My experience with XCode is not extensive, but I do know my way around and can work on making native apps look and feel perfect.</p>"
   }, {
     "tool_name" : "sketch",
     "tool_type" : "design-tool",
@@ -281,7 +281,7 @@
     "mastery_level" : 52,
     "display_name" : "Sketch",
     "tool_short_description" : "Better than Photoshop for web design?", 
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>Will Sketch save people like me from Photoshop? I'm still trying to find out.</p><p>I really love certain aspects of it, but as a designer who is also a digital artist, Photoshop simply has too many tools I use too frequently that just wouldn't make sense in Sketch. But... Somehow, Sketch is still really awesome. For a couple of recent projects, I adopted a more simple style so that Sketch would be easier to use without Photoshop. It's such a great program, but I don't think that at this point it's going to become my workhorse.</p>"
   }, {
     "tool_name" : "swift",
     "tool_type" : "platform",
@@ -289,7 +289,7 @@
     "mastery_level" : 22,
     "display_name" : "Swift",
     "tool_short_description" : "Apple's latest programming language", 
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>When Swift came out, I was so excited: They made it for me! I've worked with Swift for a couple of recent projects that aren't quite ready for prime-time, but I have to say it's exciting. It's partly that I am both a better designer and developer than when I last worked with iOS, it's also that Swift seems really... easy?</p><p>I'm having a great time learning, anyway.</p>"
   }, {
     "tool_name" : "angular",
     "tool_type" : "platform",
@@ -297,7 +297,7 @@
     "mastery_level" : 26,
     "display_name" : "Angular",
     "tool_short_description" : "Javascript application framework",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>Angular or Ember?</p><p>To date, Ember. My first experience with the MVC model was actually with Angular, but I didn't have a chance to use it professionally: The first project where I used an MVC framework we ended up using Ember.</p><p>Recently, I was re-reading the debate on Ember vs. Angular for this very portfolio and felt somewhat vindicated: A bunch of people think Ember is going to survive whereas Angular will not. A bunch of other people think the opposite. But I think the Ember people are right.</p>"
   }, {
     "tool_name" : "ab-ruby",
     "tool_type" : "platform",
@@ -305,7 +305,7 @@
     "mastery_level" : 52,
     "display_name" : "Ruby/RoR",
     "tool_short_description" : "Web development for people like me",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I'm not a Ruby/RoR developer! I included this here to explain that I have built the front end (templating, styling, interactions) for Ruby/RoR applications. I'm fairly fluent in HAML and can pretty much build without much help once data is exposed to me.</p>"
   }, {
     "tool_name" : "flask",
     "tool_type" : "platform",
@@ -313,7 +313,7 @@
     "mastery_level" : 66,
     "display_name" : "Flask",
     "tool_short_description" : "Lightweight Python web development", 
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I just completed my first project using Flask. I worked with <a href='https://www.linkedin.com/profile/view?id=AAkAAARnsdwBKsaOF4iqbHseJhOm03-1aRnHvlw'>David Sargent</a> over at <a href='http://www.nipuncapital.com/'>Nipun Capital</a> to build a reporting tool for their various investment funds.</p><p>I found Flask really easy to learn and use and look forward to using it on future Python projects.</p>"
   }, {
     "tool_name" : "aftereffects",
     "tool_type" : "design-tool",
@@ -321,6 +321,6 @@
     "mastery_level" : 69,
     "display_name" : "Adobe AfterEffects",
     "tool_short_description" : "Video editing and effects",
-    "tool_long_description" : "<p>Incomplete description! Teehee.</p>"
+    "tool_long_description" : "<p>I'm pretty fluent in AfterEffects. I've used it to make animations, special effects, commercials (for broadcast and internet), title screens, transition screens and so on.</p>"
   }
 ]}

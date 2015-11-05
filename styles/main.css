@@ -1199,7 +1199,6 @@ ul.menu {
 .tool .info, .relationship {
   background-color: rgba(255,255,255,1);
   width: 40rem;
-  position: absolute;
   left: -20rem;
   z-index: 100;
   border-radius: .3rem;
@@ -1208,6 +1207,7 @@ ul.menu {
 .relationship {
   width: 50rem;
   left: -23.5rem;
+  position: absolute;
 }
 
 .tool {
@@ -1406,7 +1406,27 @@ ul.menu {
 }
 
 .tool .info {
-  top: 5rem;
+  position: relative;
+}
+/*
+
+.tool.ab-js .info {
+  display: block;
+}
+*/
+
+.tool .info.righttop {
+  top: -9rem;
+  left: -42rem;
+}
+
+.tool .info .content p {
+  padding: 1.25rem 2.5rem;
+}
+
+.tool .info.rightbottom {
+  bottom: 22rem;
+  left: -42rem;
 }
 
 .tool:hover, .important-relationships li:hover .relationship-photo {

@@ -1407,6 +1407,7 @@ ul.menu {
 
 .tool .info {
   position: relative;
+  padding: 0 5rem;
 }
 /*
 
@@ -1416,17 +1417,27 @@ ul.menu {
 */
 
 .tool .info.righttop {
-  top: -9rem;
-  left: -42rem;
+  top: -12rem;
+  left: -50rem;
+}
+
+.tool .info.lefttop {
+  top: -12rem;
+  left: .5rem;
+}
+
+.tool .info.rightbottom {
+  bottom: 12rem;
+  left: -50rem;
+}
+
+.tool .info.leftbottom {
+  bottom: 12rem;
+  left: .5rem;
 }
 
 .tool .info .content p {
   padding: 1.25rem 2.5rem;
-}
-
-.tool .info.rightbottom {
-  bottom: 22rem;
-  left: -42rem;
 }
 
 .tool:hover, .important-relationships li:hover .relationship-photo {
@@ -1537,7 +1548,7 @@ ul.menu {
 }
 
 .info .heading {
-  border-bottom: 2rem solid rgba(238,238,238,1);
+  border-bottom: .2rem dashed rgba(238,238,238,1);
   padding-bottom: 2.5rem;
 }
 

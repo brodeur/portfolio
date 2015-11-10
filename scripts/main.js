@@ -29,7 +29,7 @@ $(document).ready(function(){
       if (x_axis_location > 50) {
         quadrant = "right";
       } else {
-        qudrant = "left";
+        quadrant = "left";
       }
       
       if (y_axis_location < 50) {

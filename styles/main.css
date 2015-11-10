@@ -992,7 +992,7 @@ ul.menu {
 
 
 .scatter-plot .background {
-  background-color: rgba(174,161,141,.5);
+  background-color: rgba(81,68,62,.3);
   height: 100%;
 }
 
@@ -1004,6 +1004,26 @@ ul.menu {
 
 .scatter-plot .quadrant div {
   width: 100%; height: 100%;
+}
+
+.slideshow-item-link {
+  display: block;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  background-color: rgba(255,129,185,1);
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
+  font-size: 1.4rem;
+  color: rgba(255,255,255,1) !important;
+  border: .3rem solid rgba(0,0,0,.2);
+  transition: all .5s;
+}
+
+.slideshow-item-link:hover, a.slideshow-item-link:hover {
+  cursor: pointer;
+  border: .3rem solid rgba(255,255,255,1);
+  text-decoration: none;
 }
 
 .scatter-plot .top-left div {
@@ -2467,6 +2487,7 @@ a.slideshow-link {
   display: block;
   animation-name: fadeInRight;
   opacity: 1;
+  z-index: 1000;
 }
 
 .work-samples img {

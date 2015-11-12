@@ -606,11 +606,11 @@ a:hover {
 }
 
 .slide.anchor-tree .explanation {
-  width: 56%;
+  width: 30%;
   position: absolute;
-  left: 50%;
-  top: 0;
-  padding: 2%;
+  right: 0;
+  top: 4%;
+  padding: 1.5%;
   background-color: rgba(0,0,0,0.3);
   color: rgba(255,255,255,1);
   background-position: center;
@@ -1163,7 +1163,6 @@ ul.menu {
   display: block;
   transition: all .5s;
   width: 4rem;
-  display: inline-block;
   height: 4rem;
   background-size: 95%;
   background-position: center center;
@@ -1174,6 +1173,8 @@ ul.menu {
   z-index: 150;
   opacity: 1;
 }
+
+
 
 .unicorn-explanation-content {
   color: rgba(255,255,255,1);
@@ -1228,6 +1229,7 @@ ul.menu {
   width: 50rem;
   left: -23.5rem;
   position: absolute;
+  padding-bottom: 5rem;
 }
 
 .tool {
@@ -1429,12 +1431,6 @@ ul.menu {
   position: relative;
   padding: 0 5rem;
 }
-/*
-
-.tool.ab-js .info {
-  display: block;
-}
-*/
 
 .tool .info.righttop {
   top: -12rem;
@@ -1470,14 +1466,12 @@ ul.menu {
   -webkit-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.5);
-  padding-bottom: 5rem;
 }
 
 .important-relationships li:hover .relationship {
   animation-name: showRelationship;
-  bottom: 3rem;
   z-index: 999;
-  bottom: 0;
+  bottom: 3.5rem;
 }
 
 .tool:hover .info {
@@ -1515,8 +1509,8 @@ ul.menu {
 @-webkit-keyframes showRelationship {
   0% {
     opacity: 0;
-    -webkit-transform: scale3d(.3, .3, .3)  translate3d(0, 400px, 0);
-    transform: scale3d(.3, .3, .3)  translate3d(0, 400px, 0);
+    -webkit-transform: scale3d(.3, .3, .3)  translate3d(0, 500px, 0);
+    transform: scale3d(.3, .3, .3)  translate3d(0, 500px, 0);
   }
 
   70% {
@@ -1528,8 +1522,8 @@ ul.menu {
 @keyframes showRelationship {
   0% {
     opacity: 0;
-    -webkit-transform: scale3d(.3, .3, .3)  translate3d(0, 400px, 0);
-    transform: scale3d(.3, .3, .3)  translate3d(0, 400px, 0);
+    -webkit-transform: scale3d(.3, .3, .3)  translate3d(0, 500px, 0);
+    transform: scale3d(.3, .3, .3)  translate3d(0, 500px, 0);
   }
 
   70% {
@@ -1955,7 +1949,7 @@ ul.menu {
 
 .important-relationships ul {
   position: relative;
-  top: .4rem;
+  top: 1.2rem;
 }
 
 .important-relationships h4 {
@@ -2024,7 +2018,7 @@ ul.menu {
   left: 0;
   top: 0;
   background-size: 140%;
-  position: relative;
+  position: absolute;
   z-index: 1000;
 }
 
@@ -2088,6 +2082,102 @@ ul.menu {
 
 .time-period .relationship-description p:last-child {
   padding: 2rem 2rem 4rem 2rem;
+}
+
+.sen-kanthaswamy {
+  background-image: url('../images/relationships/sen-kanthaswamy.jpg');
+}
+
+.candace-saffery-neufeld {
+  background-image: url('../images/relationships/candace-saffery-neufeld.jpg');
+}
+
+.keith-mosher {
+  background-image: url('../images/relationships/keith-mosher.jpg');
+}
+
+.tim-haines {
+  background-image: url('../images/relationships/tim-haines.jpg');
+}
+
+.norissa-kyin {
+  background-image: url('../images/relationships/norissa-kyin.jpg');
+}
+
+.matt-bellehumer {
+  background-image: url('../images/relationships/matt-bellehumer.jpg');
+}
+
+.tibet-sprague {
+  background-image: url('../images/relationships/tibet-sprague.jpg');
+}
+
+.grant-patterson {
+  background-image: url('../images/relationships/grant-patterson.jpg');
+}
+
+.shannon-coulter {
+  background-image: url('../images/relationships/shannon-coulter.jpg');
+}
+
+.jacob-lecuyer {
+  background-image: url('../images/relationships/jacob-lecuyer.jpg');
+}
+
+.constance-rhodes {
+  background-image: url('../images/relationships/constance-rhodes.jpg');
+}
+
+.michael-deflorimonte {
+  background-image: url('../images/relationships/michael-deflorimonte.jpg');
+}
+
+.manka-johnson {
+  background-image: url('../images/relationships/manka-johnson.jpg');
+}
+
+.orestis-herodotou {
+  background-image: url('../images/relationships/orestis-herodotou.jpg');
+}
+
+.avra-durack {
+  background-image: url('../images/relationships/avra-durack.jpg');
+}
+
+.clayton-cornell {
+  background-image: url('../images/relationships/clayton-cornell.jpg');
+}
+
+.dave-llorens {
+  background-image: url('../images/relationships/dave-llorens.jpg');
+}
+
+.david-anderson  {
+  background-image: url('../images/relationships/david-anderson.jpg');
+}
+
+.kalvin-wang  {
+  background-image: url('../images/relationships/kalvin-wang.jpg');
+}
+
+.naseem-hakim {
+  background-image: url('../images/relationships/naseem-hakim.jpg');
+}
+
+.natasha-mooney {
+  background-image: url('../images/relationships/natasha-mooney.jpg');
+}
+
+.brad-burton {
+  background-image: url('../images/relationships/brad-burton.jpg');
+}
+
+.steve-newcomb {
+  background-image: url('../images/relationships/steve-newcomb.jpg');
+}
+
+.brent-schulkin {
+  background-image: url('../images/relationships/brent-schulkin.jpg');
 }
 
 .christopher-strawser {

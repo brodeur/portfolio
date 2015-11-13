@@ -627,6 +627,15 @@ a:hover {
   line-height: 1.8rem;
 }
 
+  
+.fp-viewing-story-second a.slideshow-item-link {
+  background-color: rgba(73,206,135,1);
+}
+
+.fp-viewing-story-third a.slideshow-item-link {
+  background-color: rgba(166,197,255,1);
+}
+
 .fp-viewing-story-first .transitional-backgrounds div.first, .fp-viewing-story-second .transitional-backgrounds div.second, .fp-viewing-story-third .transitional-backgrounds div.third, .fp-viewing-story-fourth .transitional-backgrounds div.fourth, .fp-viewing-story-fifth .transitional-backgrounds div.fifth, .fp-viewing-story-sixth div.sixth, .fp-viewing-intro-0 .transitional-backgrounds div.intro, .fp-viewing-skills .transitional-backgrounds div.skills, .fp-viewing-tools .transitional-backgrounds div.tools, .fp-viewing-intro-1 .transitional-backgrounds div.unicorn-explanation, .fp-viewing-intro-2 .transitional-backgrounds div.anchor-tree, .fp-viewing-story-seventh .transitional-backgrounds div.seventh {
   opacity: 1;
 }
@@ -1009,7 +1018,7 @@ ul.menu {
 .slideshow-item-link {
   display: block;
   position: absolute;
-  top: 5%;
+  top: 60%;
   left: 0;
   background-color: rgba(255,129,185,1);
   padding: 1rem 1.5rem;

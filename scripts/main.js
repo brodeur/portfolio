@@ -1,5 +1,10 @@
 $(document).ready(function(){
   
+  contact = "aaronb";
+  
+  $(".contact-me").attr("href", "mailto:" + contact + "@gmail.com");
+  $(".contact-me").html(contact + "@gmail.com");
+  
   stop_animating = false;
 
   $(".portfolio").fullpage({

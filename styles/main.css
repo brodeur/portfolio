@@ -51,8 +51,8 @@ a:hover {
   top: 0;
   position: absolute;
   z-index: 2;
-  left: 20%;
-  top: 20%;
+  left: 17%;
+  top: 17%;
 }
 
 .shimmers {
@@ -865,10 +865,10 @@ ul.menu {
 .intro-content {
   position: absolute;
   z-index: 4;
-  width: 40%;
+  width: 42%;
   padding-left: 5%;
   color: rgba(255,255,255,1);
-  left: 45%;
+  left: 43%;
   top: 32%;
 }
 
@@ -1700,7 +1700,7 @@ ul.menu {
   border-bottom: 0.8rem solid rgba(255,255,255,.5);
   position: absolute;
   height: 1rem;
-  top: 8rem;
+  top: 5rem;
   left: 25%;
   z-index: 99;
 }
@@ -1781,7 +1781,7 @@ ul.menu {
   z-index: 100;
   left: 25%;
   height: 0;
-  top: 9.25rem;
+  top: 6.25rem;
 }
 
 .timeline-menu ul {
@@ -2660,4 +2660,20 @@ a.slideshow-link {
   padding-top: 10%;
   text-align: left;
   color: rgba(255,255,255,0.5);
+}
+
+@media only screen
+  and (max-width: 1440px) {
+  .time-period p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    margin-bottom: 1.4rem;
+  }
+  .time-period h2 {
+    padding-top: 15rem;
+    margin-bottom: 1.4rem;
+  }
+  .work-samples-menu {
+    padding-top: 15rem;
+  }
 }

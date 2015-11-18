@@ -2834,47 +2834,7 @@ a.slideshow-link {
 
 @media only screen
   and (max-width: 1440px) {
-  .time-period p {
-    font-size: 1.45rem;
-    line-height: 2.6rem;
-    margin-bottom: 1.4rem;
-  }
-  .time-period h2 {
-    padding-top: 15rem;
-    margin-bottom: 1.4rem;
-  }
-  .work-samples-menu {
-    padding-top: 15rem;
-  }
-  .scatter-plot {
-    height: 59rem
-  }
-  
-  .scatter-plot .quadrant {
-    height: 29rem;
-  }
-  .x-axis-description {
-    top: 57rem;  
-  }
-  .y-axis-description {
-    left: -10.2rem;
-  }
-  .labels .novice {
-    top: 57rem;
-  }
-  .scatter-plot .labels .x-axis {
-    top: 61rem;
-  }
-  .x-axis.middle em {
-    top: -1.5rem;
-  }
-  .labels .seasoned {
-    top: 28rem;
-  }
-  .work-samples span {
-    padding-top: 7%;
-  }
-  .time-period.third h2, .time-period.fourth h2 {
-    padding-top: 16.5rem;
-  }
+  html, body {
+    font-size: 48%;
+  }  
 }

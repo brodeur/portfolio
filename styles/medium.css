@@ -123,3 +123,52 @@ body.mobile-menu-open .portfolio {
   height: 10rem;
   border-radius: 5rem;
 }
+
+.time-period .left {
+  float: none;
+  margin-left: auto;
+  padding-bottom: 25rem;
+}
+
+.time-period .left, .time-period .right {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.time-period p {
+  font-size: 4.6rem;
+  line-height: 5.2rem;
+}
+
+.time-period h2 {
+  font-size: 10rem;
+}
+
+.right.slideshow {
+  height: 93rem;
+  float: none;
+}
+
+.work-samples span {
+  font-size: 3.6rem;
+  padding-bottom: 5%;
+  line-height: 4rem;
+}
+
+.important-relationships h4 {
+  font-size: 7.2rem;
+}
+
+.important-relationships h4 span { 
+  font-size: 2.95rem;
+}
+
+.important-relationships {
+  width: 100%;
+  left: 0;
+}
+
+.important-relationships li, .relationship-photo {
+  width: 8rem;
+  height: 8rem;
+}

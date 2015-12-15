@@ -172,3 +172,7 @@ body.mobile-menu-open .portfolio {
   width: 8rem;
   height: 8rem;
 }
+
+.shimmers, .cloud {
+  display: none;
+}

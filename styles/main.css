@@ -140,7 +140,6 @@ a:hover {
   transition: all .25s;
   left: 0;
   top: 0;
-  transform-style: preserve-3d;
 }
 
 .sparkle.sparkle-4 {
@@ -151,7 +150,6 @@ a:hover {
   transition: all .25s;
   left: 5rem;
   top: -3rem;
-  transform-style: preserve-3d;
 }
 
 .sparkle.sparkle-5 {
@@ -162,7 +160,6 @@ a:hover {
   transition: all .25s;
   left: -6rem;
   top: -4rem;
-  transform-style: preserve-3d;
 }
 
 .sparkle.sparkle-6 {
@@ -173,7 +170,6 @@ a:hover {
   transition: all .25s;
   left: -6rem;
   top: -3rem;
-  transform-style: preserve-3d;
 }
 
 .sparkle.sparkle-7 {
@@ -184,7 +180,6 @@ a:hover {
   transition: all .25s;
   left: -6rem;
   top: -2rem;
-  transform-style: preserve-3d;
 }
 
 .sparkle.sparkle-8 {
@@ -195,7 +190,6 @@ a:hover {
   transition: all .25s;
   left: -6rem;
   top: -3rem;
-  transform-style: preserve-3d;
 }
 
 .sparkle.sparkle-9 {
@@ -206,7 +200,6 @@ a:hover {
   transition: all .25s;
   left: -6rem;
   top: -2rem;
-  transform-style: preserve-3d;
 }
 .sparkle.sparkle-10 {
   animation-name: orbit3;
@@ -762,6 +755,10 @@ header {
   text-align: center;
   font-size: 1.6rem;
   color: rgba(255,255,255,1);
+}
+
+.mobile-menu {
+  display: none;
 }
 
 header .aaron-brodeur img {
@@ -1944,6 +1941,22 @@ ul.menu {
 
 .fp-viewing-intro-0 .contact-menu li a, .fp-viewing-intro-2 .contact-menu li a {
   color: rgba(255,195,78,1);
+}
+
+.fp-viewing-intro-0 .mobile-menu div {
+  background-color: rgba(30,166,152,1);
+}
+
+.fp-viewing-story-first .mobile-menu div {
+  background-color: rgba(218,106,124,1);
+}
+
+.fp-viewing-skills .mobile-menu div {
+  background-color: rgba(165,198,161,1);
+}
+
+.fp-viewing-tools .mobile-menu div {
+  background-color: rgba(134,115,96,1);
 }
 
 .fp-viewing-story-second a {

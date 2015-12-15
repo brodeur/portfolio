@@ -104,4 +104,13 @@ $(document).ready(function(){
   $(window).bind("hashchange", function(){
     stop_animating = false;
   });
+  $(".mobile-menu").click(function(){
+    $("body, nav.menu, header").toggleClass("mobile-menu-open");
+    
+    $(".nav-item").click(function(){
+      $("body, nav.menu, header").removeClass("mobile-menu-open");
+    });
+  });
+  
+
 });

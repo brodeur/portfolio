@@ -173,6 +173,6 @@ body.mobile-menu-open .portfolio {
   height: 8rem;
 }
 
-.shimmers, .cloud {
+.shimmers, .cloud, .fp-viewing-intro-0 .cloud-1, .fp-viewing-intro-0 .cloud-2 {
   display: none;
 }

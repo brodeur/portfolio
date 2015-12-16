@@ -850,6 +850,7 @@ header .aaron-brodeur a.menu-item:hover {
 
 .menu-item.contact {
   margin : 0 auto;
+  font-family: "proxima-nova";
 }
 
 .contact-menu ul:hover {

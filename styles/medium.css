@@ -60,8 +60,12 @@ header a.menu-item {
   top: -7rem;
 }
 
-.menu.selected .mobile-menu {
+.menu.mobile-menu-open .mobile-menu {
   background-color: rgba(255,255,255,1);
+}
+
+.menu.mobile-menu-open .mobile-menu div {
+  background-color: rgba(0,0,0,.6);
 }
 
 header {
@@ -85,7 +89,7 @@ body.mobile-menu-open .portfolio {
 }
 
 .mobile-menu div {
-  height: 0.75rem;
+  height: 0.9rem;
   position: relative;
   top: 1.7rem;
   border-radius: .5rem;  
@@ -95,6 +99,13 @@ body.mobile-menu-open .portfolio {
 
 .aaron-brodeur h2 {
   display: none;
+}
+
+.mobile-menu-open .aaron-brodeur h2 {
+  display: block;
+  font-size: 4.8rem;
+  top: 9rem;
+  position: relative;
 }
 
 .menu ul li {
@@ -175,4 +186,8 @@ body.mobile-menu-open .portfolio {
 
 .shimmers, .cloud, .fp-viewing-intro-0 .cloud-1, .fp-viewing-intro-0 .cloud-2 {
   display: none;
+}
+
+ul.menu {
+  margin-top: 9.5rem;
 }

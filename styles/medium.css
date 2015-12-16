@@ -265,3 +265,76 @@ ul.menu {
   top: 2.3rem;
   line-height: 1.6rem;
 }
+
+.filter .filter-toggle {
+  width: 12rem;
+  height: 5rem;
+  border-radius: 5rem;
+}
+
+.filter-toggle em {
+  width: 3.5rem;
+  height: 3.5rem;
+  top: .8rem;
+  left: .8rem;
+}
+
+.filter-label {
+  font-size: 3.6rem;
+  padding: 1rem 0 0 0.5rem;
+  display: block;
+  width: 19rem;
+}
+
+.filters {
+  top: -26rem;
+}
+
+.scatter-plot {
+  top: 20rem;
+  height: 117rem;
+}
+
+.scatter-plot .labels .x-axis, .scatter-plot .labels .y-axis {
+  font-size: 4.2rem;
+}
+
+.scatter-plot .quadrant {
+  height: 58rem;
+}
+
+.labels .seasoned {
+  top: 57rem;
+}
+
+.labels .novice {
+  top: 115rem;
+}
+
+.scatter-plot .labels .x-axis {
+  top: 119rem;
+}
+
+.y-axis-description, .x-axis-description {
+  font-size: 3.6rem;
+}
+
+.y-axis-description {
+  left: -18.4rem;
+  top: 56.5rem;
+}
+
+.x-axis-description {
+  left: 24%;
+  top: 114rem;
+}
+
+.tool .icon {
+  width: 10rem;
+  height: 10rem;
+}
+
+.content p {
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+}

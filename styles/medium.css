@@ -191,3 +191,77 @@ body.mobile-menu-open .portfolio {
 ul.menu {
   margin-top: 9.5rem;
 }
+
+.timeline-menu ul li {
+  position: relative;
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 8rem;
+}
+
+.timeline-menu li.first, .timeline-menu li.second, .timeline-menu li.third, .timeline-menu li.fourth, .timeline-menu li.fifth, .timeline-menu li.sixth, .timeline-menu li.seventh {
+  left: inherit;
+  right: 5rem;
+}
+
+.timeline-menu {
+  left: inherit;
+  right: 0;
+  width: 5%;
+  top: 14.25rem;
+}
+
+.timeline {
+  width: 1rem;
+  height: 99rem;
+  right: 7.5%;
+  border-right: 0.8rem solid rgba(255,255,255,0.5);
+  left: inherit;
+  top: 13rem;
+}
+
+.timeline-menu a {
+  border-radius: 11rem;
+  font-size: 2.8rem;
+  width: 9rem;
+  height: 9rem;
+  line-height: 1.9rem;
+}
+
+.fp-viewing-story-first .timeline-menu a.first, .fp-viewing-story-second .timeline-menu a.second, .fp-viewing-story-third .timeline-menu a.third, .fp-viewing-story-fourth .timeline-menu a.fourth, .fp-viewing-story-fifth .timeline-menu a.fifth, .fp-viewing-story-sixth .timeline-menu a.sixth, .fp-viewing-story-seventh .timeline-menu a.seventh {
+  width: 11rem;
+  height: 11rem;
+  font-size: 3.6rem;
+}
+
+.fp-viewing-story-first .timeline-menu a.first span, .fp-viewing-story-second .timeline-menu a.second span, .fp-viewing-story-third .timeline-menu a.third span, .fp-viewing-story-fourth .timeline-menu a.fourth span, .fp-viewing-story-fifth .timeline-menu a.fifth span, .fp-viewing-story-sixth .timeline-menu a.sixth span, .fp-viewing-story-seventh a.seventh span {
+  line-height: 2.4rem;
+}
+
+.work-samples-menu li {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 2rem;
+}
+
+.work-samples-menu {
+  padding-top: 13rem;
+}
+
+.work-samples-menu a.selected, .work-samples-menu a.selected:hover {
+  width: 5rem;
+  height: 5rem;
+  left: -0.5rem;
+  top: -0.5rem;
+  border-radius: 5rem;
+}
+
+.work-samples-menu li a {
+  width: 4rem;
+  height: 4rem;
+}
+
+.timeline-menu a span {
+  top: 2.3rem;
+  line-height: 1.6rem;
+}

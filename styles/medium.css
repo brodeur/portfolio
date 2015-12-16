@@ -104,8 +104,8 @@ body.mobile-menu-open .portfolio {
 .mobile-menu-open .aaron-brodeur h2 {
   display: block;
   font-size: 4.8rem;
-  top: 9rem;
-  position: relative;
+  top: 45rem;
+  position: absolute;
 }
 
 .menu ul li {

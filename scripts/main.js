@@ -1,3 +1,8 @@
+$(window).load(function(){
+  $("body").addClass("loaded");
+  $(".loader-wrapper").addClass("fadeOut");
+});
+
 $(document).ready(function(){
   
   contact = "aaronb";

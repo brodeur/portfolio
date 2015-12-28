@@ -177,6 +177,7 @@ body.mobile-menu-open .portfolio {
 .important-relationships {
   width: 100%;
   left: 0;
+  z-index: 1000;
 }
 
 .important-relationships li, .relationship-photo {
@@ -337,4 +338,53 @@ ul.menu {
 .content p {
   font-size: 3.6rem;
   line-height: 4.2rem;
+}
+
+.important-relationships li {
+  position: static;
+}
+.relationship-photo {
+  position: relative;
+}
+
+.relationship {
+  width: 72rem;
+  left: -29rem;
+  height: 140rem;
+  top: -151rem;
+}
+
+.relationship h2.left {
+  font-size: 9rem;
+  float: left;
+}
+
+.relationship h2.right {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.relationship h2 span {
+  font-size: 3rem;
+}
+
+.relationship-timeframe {
+  font-size: 4.8rem;
+}
+
+.relationship h2.left, .time-period .relationship h2.right {
+  width: 100%;
+  text-align: center;
+}
+.time-period .relationship-description p {
+  font-size: 3.6rem;
+  padding: 0rem 5rem 5rem 5rem;
+}
+
+.time-period .relationship-description p:first-child {
+  padding: 5rem 5rem 5rem 5rem;
+}
+
+.time-period .relationship-description p:last-child {
+  padding: 0rem 5rem 5rem 5rem;
 }

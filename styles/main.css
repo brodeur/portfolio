@@ -1662,7 +1662,7 @@ ul.menu {
   z-index: 1000;
 }
 
-.tool:hover .info, .important-relationships li:hover .relationship {
+.tool:hover .info, .important-relationships li:hover .relationship, .important-relationships li .relationship.kalvin {
   display: block;
   animation-duration: .5s;
   -webkit-box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.5);
@@ -1670,7 +1670,7 @@ ul.menu {
   box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.5);
 }
 
-.important-relationships li:hover .relationship {
+.important-relationships li:hover .relationship, .important-relationships li .relationship.kalvin {
   animation-name: showRelationship;
   z-index: 999;
   bottom: 3.5rem;
@@ -2955,7 +2955,7 @@ a.slideshow-link {
   color: rgba(255,255,255,0.5);
 }
 
-.time-period.third h2, .time-period.fourth h2 {
+.time-period.third .story h2, .time-period.fourth .story h2 {
   padding-top: 22.5rem;
 }
 

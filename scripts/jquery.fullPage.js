@@ -116,7 +116,7 @@
             fitToSectionDelay: 1000,
             easing: 'easeInOutCubic',
             easingcss3: 'ease',
-            loopBottom: true,
+            loopBottom: false,
             loopTop: false,
             loopHorizontal: true,
             continuousVertical: false,

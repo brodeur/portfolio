@@ -2,7 +2,7 @@
  * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
  * and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
  *
- * Version: 1.3.6
+ * Version: 1.3.7
  *
  */
 (function($) {
@@ -67,10 +67,10 @@
         allowPageScroll : false,
 
         // scroll amount applied to each mouse wheel step
-        wheelStep : 5,
+        wheelStep : 20,
 
         // scroll amount applied when user is using gestures
-        touchScrollStep : 75,
+        touchScrollStep : 20,
 
         // sets border radius
         borderRadius: '7px',

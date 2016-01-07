@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  font-family: "proxima-nova";
+  font-family: "proxima-nova", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 62.5%;
 }
